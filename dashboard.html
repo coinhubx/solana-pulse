@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SolanaPulse — Ecosystem Dashboard</title>
+<meta http-equiv="refresh" content="300">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-serif; min-height:100vh; }
+.header { background:linear-gradient(135deg,#0d0d1a,#1a1a2e); padding:20px 30px; border-bottom:1px solid #2a2a4a; display:flex; justify-content:space-between; align-items:center; }
+.header h1 { font-size:24px; color:#9945FF; }
+.header .meta { font-size:12px; color:#888; }
+.header .pulse { display:inline-block; width:10px; height:10px; background:#4ade80; border-radius:50%; margin-right:8px; animation:pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:0.3;} }
+.container { max-width:1400px; margin:0 auto; padding:20px; }
+.section-title { color:#9945FF; font-size:14px; text-transform:uppercase; letter-spacing:1px; margin:25px 0 10px; padding-bottom:5px; border-bottom:1px solid #2a2a4a; }
+.grid { display:grid; gap:15px; margin-bottom:10px; }
+.grid-4 { grid-template-columns:repeat(4,1fr); }
+.grid-3 { grid-template-columns:repeat(3,1fr); }
+.grid-2 { grid-template-columns:repeat(2,1fr); }
+.card { background:#12121f; border:1px solid #2a2a4a; border-radius:12px; padding:20px; transition:transform 0.2s,border-color 0.2s; }
+.card:hover { transform:translateY(-2px); border-color:#9945FF; }
+.card-label { font-size:11px; color:#888; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px; }
+.card-value { font-size:28px; font-weight:700; color:#fff; }
+.card-sub { font-size:13px; margin-top:4px; }
+.green { color:#4ade80; }
+.red { color:#f87171; }
+.yellow { color:#fbbf24; }
+.purple { color:#9945FF; }
+.anomaly-section { margin-top:25px; }
+.anomaly-section h2 { color:#fbbf24; font-size:16px; margin-bottom:12px; }
+.anomaly-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }
+.anomaly-card { background:#1a1a2e; border:1px solid #2a2a4a; border-left:4px solid; border-radius:8px; padding:15px; display:grid; grid-template-columns:auto 1fr auto; gap:8px; align-items:center; }
+.anomaly-level { font-size:10px; font-weight:700; padding:3px 8px; border-radius:4px; color:#000; }
+.anomaly-metric { font-weight:600; color:#fff; }
+.anomaly-value { font-size:18px; font-weight:700; color:#fbbf24; }
+.anomaly-detail { grid-column:1/-1; font-size:12px; color:#aaa; margin-top:4px; }
+.progress-bar { height:8px; background:#2a2a4a; border-radius:4px; margin-top:10px; overflow:hidden; }
+.progress-fill { height:100%; background:linear-gradient(90deg,#9945FF,#14F195); border-radius:4px; }
+.chart-container { background:#12121f; border:1px solid #2a2a4a; border-radius:12px; padding:20px; margin-top:15px; }
+.chart-title { font-size:14px; color:#888; margin-bottom:10px; }
+.bar-chart { display:flex; align-items:flex-end; gap:8px; height:120px; padding-top:10px; }
+.bar { flex:1; background:linear-gradient(180deg,#14F195,#9945FF); border-radius:4px 4px 0 0; position:relative; min-height:4px; }
+.bar-label { position:absolute; bottom:-20px; left:0; right:0; text-align:center; font-size:10px; color:#888; }
+.bar-value { position:absolute; top:-18px; left:0; right:0; text-align:center; font-size:10px; color:#ccc; }
+.footer { text-align:center; padding:30px; color:#555; font-size:12px; }
+.sources { display:flex; gap:15px; justify-content:center; margin-top:10px; }
+.source-badge { background:#1a1a2e; padding:4px 12px; border-radius:20px; font-size:11px; color:#888; border:1px solid #2a2a4a; }
+@media(max-width:768px) { .grid-4,.grid-3 { grid-template-columns:repeat(2,1fr); } .grid-2 { grid-template-columns:1fr; } .anomaly-grid { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<div class="header">
+    <div><span class="pulse"></span><h1 style="display:inline">SolanaPulse</h1></div>
+    <div class="meta">Auto-updating · Last refresh: 2026-08-01T07:31:56.805673+00:00<br>Next refresh in 5 min</div>
+</div>
+<div class="container">
+    <div class="section-title">Economic Indicators</div>
+    <div class="grid grid-4">
+        <div class="card">
+            <div class="card-label">SOL Price</div>
+            <div class="card-value">$72.93</div>
+            <div class="card-sub #f87171">-0.8% (24h) · -1.4% (7d)</div>
+        </div>
+        <div class="card">
+            <div class="card-label">Market Cap</div>
+            <div class="card-value">$42.38B</div>
+            <div class="card-sub purple">Rank #7</div>
+        </div>
+        <div class="card">
+            <div class="card-label">24h Volume</div>
+            <div class="card-value">$1.34B</div>
+            <div class="card-sub green">FDV: $46.05B</div>
+        </div>
+        <div class="card">
+            <div class="card-label">ATH</div>
+            <div class="card-value">$293.31</div>
+            <div class="card-sub red">-75.1% from ATH</div>
+        </div>
+    </div>
+
+    <div class="section-title">Network Performance</div>
+    <div class="grid grid-4">
+        <div class="card">
+            <div class="card-label">Current Slot</div>
+            <div class="card-value">436,519,180</div>
+            <div class="card-sub green">ok</div>
+        </div>
+        <div class="card">
+            <div class="card-label">Current TPS</div>
+            <div class="card-value">2720</div>
+            <div class="card-sub">transactions/sec</div>
+        </div>
+        <div class="card">
+            <div class="card-label">Avg Slot Time</div>
+            <div class="card-value">0.4209s</div>
+            <div class="card-sub">target: ~0.4s</div>
+        </div>
+        <div class="card">
+            <div class="card-label">Epoch</div>
+            <div class="card-value">#1010</div>
+            <div class="card-sub">46.11% complete</div>
+            <div class="progress-bar"><div class="progress-fill" style="width:46.11%"></div></div>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <div class="chart-title">TPS Samples (Recent 5 periods)</div>
+        <div class="bar-chart" id="tps-chart"></div>
+    </div>
+
+    <div class="section-title">Validators & Supply</div>
+    <div class="grid grid-4">
+        <div class="card">
+            <div class="card-label">Active Validators</div>
+            <div class="card-value green">693</div>
+        </div>
+        <div class="card">
+            <div class="card-label">Delinquent</div>
+            <div class="card-value" style="color:#4ade80">11</div>
+            <div class="card-sub" style="color:#4ade80">1.56% rate</div>
+        </div>
+        <div class="card">
+            <div class="card-label">Total Supply</div>
+            <div class="card-value">0.00 SOL</div>
+        </div>
+        <div class="card">
+            <div class="card-label">Circulating</div>
+            <div class="card-value">0.00 SOL</div>
+        </div>
+    </div>
+
+    <div class="section-title">DeFi Metrics</div>
+    <div class="grid grid-2">
+        <div class="card">
+            <div class="card-label">Total Value Locked</div>
+            <div class="card-value purple">$4.74B</div>
+        </div>
+        <div class="card">
+            <div class="card-label">DEX Volume (24h)</div>
+            <div class="card-value">$1.73B</div>
+            <div class="card-sub green">+9.8% change</div>
+        </div>
+    </div>
+
+    
+
+    <div class="footer">
+        <p>SolanaPulse v1.0 — Auto-updating Solana Ecosystem Report</p>
+        <div class="sources">
+            <span class="source-badge">Solana RPC</span>
+            <span class="source-badge">DeFiLlama</span>
+            <span class="source-badge">CoinGecko</span>
+        </div>
+        <p style="margin-top:8px">No API keys required · Python stdlib only · Auto-refreshes every 5 minutes</p>
+    </div>
+</div>
+<script>
+// Render TPS bar chart
+var tpsData = [2719.8, 2571.6, 2756.0, 2605.7, 2781.0];
+var maxTps = Math.max.apply(Math, tpsData.concat([1]));
+var chart = document.getElementById('tps-chart');
+tpsData.forEach(function(val, i) {
+    var bar = document.createElement('div');
+    bar.className = 'bar';
+    bar.style.height = (val / maxTps * 100) + '%';
+    bar.innerHTML = '<span class="bar-value">' + Math.round(val) + '</span><span class="bar-label">T-' + i + '</span>';
+    chart.appendChild(bar);
+});
+// Countdown to next refresh
+var seconds = 300;
+setInterval(function() {
+    seconds--;
+    if (seconds <= 0) seconds = 300;
+}, 1000);
+</script>
+</body>
+</html>

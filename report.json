@@ -1,0 +1,69 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-08-01T07:31:56.805673+00:00",
+    "generator": "SolanaPulse v1.0",
+    "data_sources": [
+      "Solana RPC",
+      "DeFiLlama",
+      "CoinGecko"
+    ],
+    "auto_refresh_interval": "configurable (default: 5 min)"
+  },
+  "network_health": "ok",
+  "network_performance": {
+    "current_slot": 436519180,
+    "current_tps": 2719.8,
+    "tps_samples": [
+      2719.8,
+      2571.6,
+      2756.0,
+      2605.7,
+      2781.0
+    ],
+    "avg_slot_time_seconds": 0.4209,
+    "slot_time_samples": [
+      0.4196,
+      0.411,
+      0.4167,
+      0.4286,
+      0.4286
+    ]
+  },
+  "epoch": {
+    "current_epoch": 1010,
+    "slot_index": 199181,
+    "slots_in_epoch": 432000,
+    "epoch_progress_pct": 46.11
+  },
+  "validators": {
+    "active": 693,
+    "delinquent": 11,
+    "total": 704,
+    "delinquency_rate_pct": 1.56
+  },
+  "supply": {
+    "total_supply_sol": 0.0,
+    "circulating_sol": 0.0,
+    "non_circulating_sol": 0.0
+  },
+  "economic_indicators": {
+    "sol_price_usd": 72.93,
+    "sol_price_change_24h_pct": -0.7689,
+    "sol_price_change_7d_pct": -1.40236,
+    "market_cap_usd": 42379656768,
+    "market_cap_rank": 7,
+    "volume_24h_usd": 1344165980,
+    "ath_usd": 293.31,
+    "ath_change_pct": -75.13512,
+    "fdv_usd": 46047993387,
+    "circulating_supply_sol": 581078804.9318528,
+    "total_supply_sol": 631376334.8521135
+  },
+  "defi_metrics": {
+    "tvl_usd": 4739482743.640452,
+    "dex_volume_24h_usd": 1733710237.08,
+    "dex_volume_change_pct": 9.75
+  },
+  "anomaly_detection": [],
+  "anomaly_count": 0
+}
