@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-04T23:45:27.854143+00:00",
+    "generated_at": "2026-08-05T02:20:46.834779+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 437270667,
-    "current_tps": 4180.8,
+    "current_slot": 437292677,
+    "current_tps": 3170.1,
     "tps_samples": [
-      4180.8,
-      3380.3,
-      3423.5,
-      3385.4,
-      3573.8
+      3170.1,
+      3741.8,
+      3599.7,
+      3199.2,
+      3576.6
     ],
-    "avg_slot_time_seconds": 0.4202,
+    "avg_slot_time_seconds": 0.4191,
     "slot_time_samples": [
-      0.4255,
       0.4196,
       0.4138,
-      0.4225,
-      0.4196
+      0.4286,
+      0.4196,
+      0.4138
     ]
   },
   "epoch": {
     "current_epoch": 1012,
-    "slot_index": 86668,
+    "slot_index": 108678,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 20.06
+    "epoch_progress_pct": 25.16
   },
   "validators": {
     "active": 692,
@@ -47,22 +47,22 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 73.87,
-    "sol_price_change_24h_pct": 0.60426,
-    "sol_price_change_7d_pct": 0.74599,
-    "market_cap_usd": 42923232438,
+    "sol_price_usd": 74.15,
+    "sol_price_change_24h_pct": 0.58531,
+    "sol_price_change_7d_pct": 1.34105,
+    "market_cap_usd": 43114540693,
     "market_cap_rank": 7,
-    "volume_24h_usd": 1397146273,
+    "volume_24h_usd": 1439336475,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.81679,
-    "fdv_usd": 46639035712,
-    "circulating_supply_sol": 581307406.7829312,
-    "total_supply_sol": 631630357.2031541
+    "ath_change_pct": -74.71838,
+    "fdv_usd": 46846907236,
+    "circulating_supply_sol": 581307323.5950613,
+    "total_supply_sol": 631630289.4407591
   },
   "defi_metrics": {
-    "tvl_usd": 4801548750.9128895,
-    "dex_volume_24h_usd": 1712543781.88,
-    "dex_volume_change_pct": 27
+    "tvl_usd": 4789857117.151892,
+    "dex_volume_24h_usd": 1738980400.9299998,
+    "dex_volume_change_pct": 1.54
   },
   "anomaly_detection": [],
   "anomaly_count": 0
