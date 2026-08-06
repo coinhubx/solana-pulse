@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-06T04:30:43.472674+00:00",
+    "generated_at": "2026-08-06T07:25:03.564110+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 437515537,
-    "current_tps": 2874.4,
+    "current_slot": 437540239,
+    "current_tps": 2736.1,
     "tps_samples": [
-      2874.4,
-      2749.2,
-      3126.2,
-      3017.2,
-      3004.6
+      2736.1,
+      2477.1,
+      2631.4,
+      2924.3,
+      3172.3
     ],
-    "avg_slot_time_seconds": 0.424,
+    "avg_slot_time_seconds": 0.4274,
     "slot_time_samples": [
+      0.4225,
+      0.4286,
       0.4348,
-      0.4348,
-      0.411,
-      0.4196,
-      0.4196
+      0.4255,
+      0.4255
     ]
   },
   "epoch": {
     "current_epoch": 1012,
-    "slot_index": 331538,
+    "slot_index": 356241,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 76.74
+    "epoch_progress_pct": 82.46
   },
   "validators": {
     "active": 692,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 73.74,
-    "sol_price_change_24h_pct": 0.17639,
-    "sol_price_change_7d_pct": 0.17071,
-    "market_cap_usd": 42865437800,
+    "sol_price_usd": 73.99,
+    "sol_price_change_24h_pct": 0.39933,
+    "sol_price_change_7d_pct": 0.49056,
+    "market_cap_usd": 43012053693,
     "market_cap_rank": 7,
-    "volume_24h_usd": 1585126747,
+    "volume_24h_usd": 1574914394,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.85942,
-    "fdv_usd": 46576245075,
-    "circulating_supply_sol": 581306409.060916,
-    "total_supply_sol": 631629374.4764731
+    "ath_change_pct": -74.77294,
+    "fdv_usd": 46735554821,
+    "circulating_supply_sol": 581306321.6930839,
+    "total_supply_sol": 631629287.8963896
   },
   "defi_metrics": {
-    "tvl_usd": 4783473002.056895,
+    "tvl_usd": 4784188642.192365,
     "dex_volume_24h_usd": 1654777630.91,
     "dex_volume_change_pct": -5.31
   },
