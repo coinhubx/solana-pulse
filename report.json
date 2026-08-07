@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-07T22:32:19.266869+00:00",
+    "generated_at": "2026-08-07T23:17:17.249646+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 437873878,
-    "current_tps": 3265.6,
+    "current_slot": 437880286,
+    "current_tps": 3696.9,
     "tps_samples": [
-      3265.6,
-      3545.0,
-      3512.5,
-      3508.3,
-      3432.9
+      3696.9,
+      3341.0,
+      3392.9,
+      3339.9,
+      3555.3
     ],
-    "avg_slot_time_seconds": 0.4227,
+    "avg_slot_time_seconds": 0.422,
     "slot_time_samples": [
-      0.4286,
-      0.4317,
-      0.4196,
+      0.4167,
+      0.4255,
+      0.4255,
       0.4225,
-      0.411
+      0.4196
     ]
   },
   "epoch": {
     "current_epoch": 1013,
-    "slot_index": 257879,
+    "slot_index": 264288,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 59.69
+    "epoch_progress_pct": 61.18
   },
   "validators": {
     "active": 692,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 73.65,
-    "sol_price_change_24h_pct": 1.34845,
-    "sol_price_change_7d_pct": 1.30904,
-    "market_cap_usd": 42871279240,
+    "sol_price_usd": 73.69,
+    "sol_price_change_24h_pct": 1.48394,
+    "sol_price_change_7d_pct": 1.20718,
+    "market_cap_usd": 42887589725,
     "market_cap_rank": 7,
-    "volume_24h_usd": 1557145750,
+    "volume_24h_usd": 1550559160,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.88887,
-    "fdv_usd": 46532297663,
-    "circulating_supply_sol": 582051589.2134,
+    "ath_change_pct": -74.87502,
+    "fdv_usd": 46550001168,
+    "circulating_supply_sol": 582051555.91785,
     "total_supply_sol": 631756194.9865186
   },
   "defi_metrics": {
-    "tvl_usd": 4730903781.780616,
+    "tvl_usd": 4723720739.018548,
     "dex_volume_24h_usd": 1379094026.1799998,
     "dex_volume_change_pct": -15.75
   },
