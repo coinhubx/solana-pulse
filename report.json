@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-07T15:35:49.910804+00:00",
+    "generated_at": "2026-08-07T16:34:01.894183+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 437814720,
-    "current_tps": 4006.4,
+    "current_slot": 437822976,
+    "current_tps": 4274.8,
     "tps_samples": [
-      4006.4,
-      4856.0,
-      4509.6,
-      4016.4,
-      4280.0
+      4274.8,
+      4252.1,
+      4018.1,
+      4081.3,
+      4332.1
     ],
-    "avg_slot_time_seconds": 0.4228,
+    "avg_slot_time_seconds": 0.422,
     "slot_time_samples": [
-      0.4444,
-      0.4138,
-      0.4138,
-      0.4196,
-      0.4225
+      0.4255,
+      0.4225,
+      0.4167,
+      0.4286,
+      0.4167
     ]
   },
   "epoch": {
     "current_epoch": 1013,
-    "slot_index": 198721,
+    "slot_index": 206977,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 46.0
+    "epoch_progress_pct": 47.91
   },
   "validators": {
     "active": 693,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 73.77,
-    "sol_price_change_24h_pct": 0.40619,
-    "sol_price_change_7d_pct": 1.18155,
-    "market_cap_usd": 42913468192,
+    "sol_price_usd": 73.76,
+    "sol_price_change_24h_pct": 0.69878,
+    "sol_price_change_7d_pct": 0.93136,
+    "market_cap_usd": 42932577471,
     "market_cap_rank": 7,
-    "volume_24h_usd": 1523688338,
+    "volume_24h_usd": 1515215031,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.84775,
-    "fdv_usd": 46578089472,
-    "circulating_supply_sol": 582051824.3881223,
+    "ath_change_pct": -74.85243,
+    "fdv_usd": 46598830720,
+    "circulating_supply_sol": 582051803.4976224,
     "total_supply_sol": 631756445.5545471
   },
   "defi_metrics": {
-    "tvl_usd": 4750258584.3867855,
+    "tvl_usd": 4739444617.262394,
     "dex_volume_24h_usd": 1379094026.1799998,
     "dex_volume_change_pct": -15.75
   },
