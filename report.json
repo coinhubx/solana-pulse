@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-08T09:47:33.895613+00:00",
+    "generated_at": "2026-08-08T10:29:55.015453+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 437969917,
-    "current_tps": 2917.4,
+    "current_slot": 437975933,
+    "current_tps": 2670.7,
     "tps_samples": [
-      2917.4,
-      2779.8,
-      2749.6,
-      2777.2,
-      2593.3
+      2670.7,
+      2871.1,
+      2761.8,
+      2732.7,
+      2823.2
     ],
-    "avg_slot_time_seconds": 0.4192,
+    "avg_slot_time_seconds": 0.4251,
     "slot_time_samples": [
-      0.4255,
-      0.4317,
+      0.4286,
+      0.4196,
       0.4138,
-      0.4167,
-      0.4082
+      0.4286,
+      0.4348
     ]
   },
   "epoch": {
     "current_epoch": 1013,
-    "slot_index": 353918,
+    "slot_index": 359934,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 81.93
+    "epoch_progress_pct": 83.32
   },
   "validators": {
     "active": 692,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 74.82,
-    "sol_price_change_24h_pct": 1.60408,
-    "sol_price_change_7d_pct": 2.52586,
-    "market_cap_usd": 43542836969,
+    "sol_price_usd": 74.93,
+    "sol_price_change_24h_pct": 1.90991,
+    "sol_price_change_7d_pct": 3.06358,
+    "market_cap_usd": 43612638999,
     "market_cap_rank": 7,
-    "volume_24h_usd": 1560554884,
+    "volume_24h_usd": 1522156539,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.49159,
-    "fdv_usd": 47261204829,
-    "circulating_supply_sol": 582051234.9270505,
+    "ath_change_pct": -74.45407,
+    "fdv_usd": 47336968728,
+    "circulating_supply_sol": 582051221.516108,
     "total_supply_sol": 631755855.868289
   },
   "defi_metrics": {
-    "tvl_usd": 4767152449.781957,
+    "tvl_usd": 4769051243.956281,
     "dex_volume_24h_usd": 1361153628.02,
     "dex_volume_change_pct": -1.3
   },
