@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-09T07:40:22.409051+00:00",
+    "generated_at": "2026-08-09T08:23:53.995859+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 438156291,
-    "current_tps": 2896.2,
+    "current_slot": 438162491,
+    "current_tps": 2758.6,
     "tps_samples": [
-      2896.2,
-      2833.7,
-      2891.9,
-      2806.6,
-      2920.6
+      2758.6,
+      2695.5,
+      2800.3,
+      3018.9,
+      2734.4
     ],
-    "avg_slot_time_seconds": 0.4162,
+    "avg_slot_time_seconds": 0.4222,
     "slot_time_samples": [
+      0.411,
+      0.438,
       0.4167,
-      0.4082,
-      0.4225,
-      0.4225,
-      0.411
+      0.4286,
+      0.4167
     ]
   },
   "epoch": {
     "current_epoch": 1014,
-    "slot_index": 108291,
+    "slot_index": 114492,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 25.07
+    "epoch_progress_pct": 26.5
   },
   "validators": {
     "active": 691,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 76.24,
-    "sol_price_change_24h_pct": 2.12276,
-    "sol_price_change_7d_pct": 3.92856,
-    "market_cap_usd": 44385013306,
+    "sol_price_usd": 76.33,
+    "sol_price_change_24h_pct": 2.22379,
+    "sol_price_change_7d_pct": 4.02052,
+    "market_cap_usd": 44443551564,
     "market_cap_rank": 7,
-    "volume_24h_usd": 1255912848,
+    "volume_24h_usd": 1261460171,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.0066,
-    "fdv_usd": 48175502758,
-    "circulating_supply_sol": 582166184.0444974,
+    "ath_change_pct": -73.97659,
+    "fdv_usd": 48239042350,
+    "circulating_supply_sol": 582166170.3943899,
     "total_supply_sol": 631883299.5360248
   },
   "defi_metrics": {
-    "tvl_usd": 4807934049.411584,
+    "tvl_usd": 4812076895.153391,
     "dex_volume_24h_usd": 1479321412.54,
     "dex_volume_change_pct": 8.67
   },
