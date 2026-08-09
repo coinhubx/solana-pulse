@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-09T20:35:10.143628+00:00",
+    "generated_at": "2026-08-09T21:12:12.981819+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,35 +11,35 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 438266203,
-    "current_tps": 4010.6,
+    "current_slot": 438271464,
+    "current_tps": 4164.6,
     "tps_samples": [
-      4010.6,
-      4384.8,
-      4362.1,
-      4369.4,
-      3770.8
+      4164.6,
+      4319.9,
+      3731.7,
+      3989.1,
+      3893.2
     ],
-    "avg_slot_time_seconds": 0.4209,
+    "avg_slot_time_seconds": 0.4274,
     "slot_time_samples": [
-      0.4317,
-      0.4138,
       0.4225,
-      0.4255,
-      0.411
+      0.4348,
+      0.4348,
+      0.4196,
+      0.4255
     ]
   },
   "epoch": {
     "current_epoch": 1014,
-    "slot_index": 218204,
+    "slot_index": 223465,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 50.51
+    "epoch_progress_pct": 51.73
   },
   "validators": {
-    "active": 691,
-    "delinquent": 7,
+    "active": 690,
+    "delinquent": 8,
     "total": 698,
-    "delinquency_rate_pct": 1.0
+    "delinquency_rate_pct": 1.15
   },
   "supply": {
     "total_supply_sol": 0.0,
@@ -47,16 +47,16 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 77.17,
-    "sol_price_change_24h_pct": 1.31139,
-    "sol_price_change_7d_pct": 4.79547,
-    "market_cap_usd": 44920670420,
+    "sol_price_usd": 77.12,
+    "sol_price_change_24h_pct": 1.10468,
+    "sol_price_change_7d_pct": 4.75056,
+    "market_cap_usd": 44898584400,
     "market_cap_rank": 7,
-    "volume_24h_usd": 1042548528,
+    "volume_24h_usd": 1032743536,
     "ath_usd": 293.31,
-    "ath_change_pct": -73.69125,
-    "fdv_usd": 48756911201,
-    "circulating_supply_sol": 582165728.5227673,
+    "ath_change_pct": -73.706,
+    "fdv_usd": 48732938399,
+    "circulating_supply_sol": 582165709.4911075,
     "total_supply_sol": 631882843.901575
   },
   "defi_metrics": {
