@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-10T15:37:29.644444+00:00",
+    "generated_at": "2026-08-10T16:31:49.724471+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 438428359,
-    "current_tps": 4500.6,
+    "current_slot": 438436048,
+    "current_tps": 4525.8,
     "tps_samples": [
-      4500.6,
-      4925.2,
-      4182.6,
-      4152.6,
-      4318.6
+      4525.8,
+      4561.4,
+      3904.4,
+      3627.9,
+      3374.8
     ],
-    "avg_slot_time_seconds": 0.4221,
+    "avg_slot_time_seconds": 0.4245,
     "slot_time_samples": [
-      0.4348,
-      0.4225,
+      0.4167,
       0.4196,
-      0.411,
-      0.4225
+      0.4167,
+      0.4348,
+      0.4348
     ]
   },
   "epoch": {
     "current_epoch": 1014,
-    "slot_index": 380360,
+    "slot_index": 388049,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 88.05
+    "epoch_progress_pct": 89.83
   },
   "validators": {
     "active": 690,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 76.01,
-    "sol_price_change_24h_pct": -1.25909,
-    "sol_price_change_7d_pct": 3.16509,
-    "market_cap_usd": 44256641303,
+    "sol_price_usd": 75.74,
+    "sol_price_change_24h_pct": -1.68792,
+    "sol_price_change_7d_pct": 2.98848,
+    "market_cap_usd": 44117931543,
     "market_cap_rank": 7,
-    "volume_24h_usd": 1361230408,
+    "volume_24h_usd": 1335500058,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.08444,
-    "fdv_usd": 48036178241,
-    "circulating_supply_sol": 582165092.756823,
+    "ath_change_pct": -74.17771,
+    "fdv_usd": 47885622556,
+    "circulating_supply_sol": 582165072.1121653,
     "total_supply_sol": 631882208.9393075
   },
   "defi_metrics": {
-    "tvl_usd": 4837110622.581913,
+    "tvl_usd": 4831988486.666482,
     "dex_volume_24h_usd": 1347434364.98,
     "dex_volume_change_pct": -9.76
   },
