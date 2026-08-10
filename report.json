@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-10T01:37:48.618025+00:00",
+    "generated_at": "2026-08-10T03:29:58.471860+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,35 +11,35 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 438309104,
-    "current_tps": 3758.2,
+    "current_slot": 438325019,
+    "current_tps": 3055.0,
     "tps_samples": [
-      3758.2,
-      3488.5,
-      3657.8,
-      3242.0,
-      3798.6
+      3055.0,
+      3133.0,
+      3504.6,
+      3317.8,
+      3411.1
     ],
     "avg_slot_time_seconds": 0.4208,
     "slot_time_samples": [
+      0.4286,
       0.4196,
+      0.4167,
       0.4225,
-      0.4255,
-      0.4196,
       0.4167
     ]
   },
   "epoch": {
     "current_epoch": 1014,
-    "slot_index": 261105,
+    "slot_index": 277020,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 60.44
+    "epoch_progress_pct": 64.12
   },
   "validators": {
-    "active": 691,
-    "delinquent": 7,
+    "active": 690,
+    "delinquent": 8,
     "total": 698,
-    "delinquency_rate_pct": 1.0
+    "delinquency_rate_pct": 1.15
   },
   "supply": {
     "total_supply_sol": 0.0,
@@ -47,22 +47,22 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 76.49,
-    "sol_price_change_24h_pct": 0.9509,
-    "sol_price_change_7d_pct": 4.56386,
-    "market_cap_usd": 44552254756,
+    "sol_price_usd": 76.73,
+    "sol_price_change_24h_pct": 1.09605,
+    "sol_price_change_7d_pct": 5.11218,
+    "market_cap_usd": 44673489915,
     "market_cap_rank": 7,
-    "volume_24h_usd": 1140406921,
+    "volume_24h_usd": 1180744721,
     "ath_usd": 293.31,
-    "ath_change_pct": -73.92044,
-    "fdv_usd": 48357033076,
-    "circulating_supply_sol": 582165548.7098598,
-    "total_supply_sol": 631882664.9403348
+    "ath_change_pct": -73.8393,
+    "fdv_usd": 48488621878,
+    "circulating_supply_sol": 582165499.4096148,
+    "total_supply_sol": 631882627.3051974
   },
   "defi_metrics": {
-    "tvl_usd": 4850815542.012622,
-    "dex_volume_24h_usd": 1366162759.98,
-    "dex_volume_change_pct": -8.5
+    "tvl_usd": 4840425771.977359,
+    "dex_volume_24h_usd": 1366808730.98,
+    "dex_volume_change_pct": -8.46
   },
   "anomaly_detection": [],
   "anomaly_count": 0
