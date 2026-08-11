@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-11T10:56:31.401675+00:00",
+    "generated_at": "2026-08-11T11:43:55.474832+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 438593247,
-    "current_tps": 2789.9,
+    "current_slot": 438600018,
+    "current_tps": 3041.9,
     "tps_samples": [
-      2789.9,
-      3056.9,
-      2961.5,
-      2851.8,
-      3257.9
+      3041.9,
+      2972.1,
+      3285.3,
+      3027.8,
+      3107.2
     ],
     "avg_slot_time_seconds": 0.4191,
     "slot_time_samples": [
-      0.4255,
-      0.411,
-      0.4167,
-      0.4225,
+      0.4286,
+      0.4196,
+      0.4082,
+      0.4196,
       0.4196
     ]
   },
   "epoch": {
     "current_epoch": 1015,
-    "slot_index": 113248,
+    "slot_index": 120020,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 26.21
+    "epoch_progress_pct": 27.78
   },
   "validators": {
     "active": 692,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 75.92,
-    "sol_price_change_24h_pct": -1.119,
-    "sol_price_change_7d_pct": 3.76214,
-    "market_cap_usd": 44221451435,
+    "sol_price_usd": 76.11,
+    "sol_price_change_24h_pct": -0.90093,
+    "sol_price_change_7d_pct": 3.50849,
+    "market_cap_usd": 44322053085,
     "market_cap_rank": 7,
-    "volume_24h_usd": 1355975184,
+    "volume_24h_usd": 1392248795,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.11782,
-    "fdv_usd": 47981575041,
-    "circulating_supply_sol": 582481593.980988,
-    "total_supply_sol": 632009654.0123985
+    "ath_change_pct": -74.05116,
+    "fdv_usd": 48090732140,
+    "circulating_supply_sol": 582481565.3199881,
+    "total_supply_sol": 632009624.2815984
   },
   "defi_metrics": {
-    "tvl_usd": 4836430938.661308,
+    "tvl_usd": 4837242903.105275,
     "dex_volume_24h_usd": 1581973855.56,
     "dex_volume_change_pct": 17.41
   },
