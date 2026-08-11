@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-11T19:19:25.301470+00:00",
+    "generated_at": "2026-08-11T20:10:03.980781+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 438664790,
-    "current_tps": 4493.7,
+    "current_slot": 438672026,
+    "current_tps": 4354.0,
     "tps_samples": [
-      4493.7,
-      5146.4,
-      4572.3,
-      4408.8,
-      3658.3
+      4354.0,
+      4255.3,
+      4680.6,
+      4489.8,
+      4299.6
     ],
-    "avg_slot_time_seconds": 0.4232,
+    "avg_slot_time_seconds": 0.4192,
     "slot_time_samples": [
-      0.4286,
+      0.4348,
       0.4196,
+      0.411,
       0.4196,
-      0.4286,
-      0.4196
+      0.411
     ]
   },
   "epoch": {
     "current_epoch": 1015,
-    "slot_index": 184792,
+    "slot_index": 192028,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 42.78
+    "epoch_progress_pct": 44.45
   },
   "validators": {
     "active": 690,
@@ -47,17 +47,17 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 75.06,
-    "sol_price_change_24h_pct": -1.12296,
-    "sol_price_change_7d_pct": 1.32792,
-    "market_cap_usd": 43717795875,
+    "sol_price_usd": 75.84,
+    "sol_price_change_24h_pct": -0.47222,
+    "sol_price_change_7d_pct": 2.37234,
+    "market_cap_usd": 44171301315,
     "market_cap_rank": 7,
-    "volume_24h_usd": 1250078143,
+    "volume_24h_usd": 1269052140,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.40792,
-    "fdv_usd": 47435097810,
-    "circulating_supply_sol": 582481280.040396,
-    "total_supply_sol": 632009359.524294
+    "ath_change_pct": -74.14218,
+    "fdv_usd": 47927165044,
+    "circulating_supply_sol": 582481242.923601,
+    "total_supply_sol": 632009317.911799
   },
   "defi_metrics": {
     "tvl_usd": 4799368044.744151,
