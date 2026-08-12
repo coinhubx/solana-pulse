@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-12T22:13:32.776693+00:00",
+    "generated_at": "2026-08-12T23:03:47.669770+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 438895290,
-    "current_tps": 3531.3,
+    "current_slot": 438902518,
+    "current_tps": 3960.2,
     "tps_samples": [
-      3531.3,
-      4162.9,
-      3462.1,
-      3653.8,
-      3734.2
+      3960.2,
+      3376.6,
+      3916.2,
+      3646.4,
+      3306.3
     ],
-    "avg_slot_time_seconds": 0.4174,
+    "avg_slot_time_seconds": 0.4156,
     "slot_time_samples": [
+      0.4167,
+      0.411,
       0.4196,
-      0.4054,
       0.4138,
-      0.4317,
       0.4167
     ]
   },
   "epoch": {
     "current_epoch": 1015,
-    "slot_index": 415292,
+    "slot_index": 422519,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 96.13
+    "epoch_progress_pct": 97.81
   },
   "validators": {
     "active": 689,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 75.51,
-    "sol_price_change_24h_pct": -1.10818,
-    "sol_price_change_7d_pct": 2.00861,
-    "market_cap_usd": 43979695336,
+    "sol_price_usd": 75.48,
+    "sol_price_change_24h_pct": -0.96826,
+    "sol_price_change_7d_pct": 2.25769,
+    "market_cap_usd": 43966374470,
     "market_cap_rank": 7,
-    "volume_24h_usd": 1240407228,
+    "volume_24h_usd": 1226147824,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.25569,
-    "fdv_usd": 47717716463,
-    "circulating_supply_sol": 582499316.0015903,
-    "total_supply_sol": 632008399.9134821
+    "ath_change_pct": -74.26581,
+    "fdv_usd": 47703261737,
+    "circulating_supply_sol": 582499285.5140102,
+    "total_supply_sol": 632008364.5666246
   },
   "defi_metrics": {
-    "tvl_usd": 4821891299.6930895,
+    "tvl_usd": 4819448252.558603,
     "dex_volume_24h_usd": 1650837789.28,
     "dex_volume_change_pct": 4.35
   },
