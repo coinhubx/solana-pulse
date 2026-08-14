@@ -53,30 +53,30 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
 <body>
 <div class="header">
     <div><span class="pulse"></span><h1 style="display:inline">SolanaPulse</h1></div>
-    <div class="meta">Auto-updating · Last refresh: 2026-08-13T23:58:22.568755+00:00<br>Next refresh in 5 min</div>
+    <div class="meta">Auto-updating · Last refresh: 2026-08-14T02:26:06.108565+00:00<br>Next refresh in 5 min</div>
 </div>
 <div class="container">
     <div class="section-title">Economic Indicators</div>
     <div class="grid grid-4">
         <div class="card">
             <div class="card-label">SOL Price</div>
-            <div class="card-value">$76.15</div>
-            <div class="card-sub #4ade80">+0.8% (24h) · +4.9% (7d)</div>
+            <div class="card-value">$75.99</div>
+            <div class="card-sub #4ade80">+0.6% (24h) · +4.6% (7d)</div>
         </div>
         <div class="card">
             <div class="card-label">Market Cap</div>
-            <div class="card-value">$44.37B</div>
+            <div class="card-value">$44.27B</div>
             <div class="card-sub purple">Rank #7</div>
         </div>
         <div class="card">
             <div class="card-label">24h Volume</div>
-            <div class="card-value">$1.16B</div>
-            <div class="card-sub green">FDV: $48.14B</div>
+            <div class="card-value">$1.18B</div>
+            <div class="card-sub green">FDV: $48.04B</div>
         </div>
         <div class="card">
             <div class="card-label">ATH</div>
             <div class="card-value">$293.31</div>
-            <div class="card-sub red">-74.0% from ATH</div>
+            <div class="card-sub red">-74.1% from ATH</div>
         </div>
     </div>
 
@@ -84,12 +84,12 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
     <div class="grid grid-4">
         <div class="card">
             <div class="card-label">Current Slot</div>
-            <div class="card-value">439,117,426</div>
+            <div class="card-value">439,138,707</div>
             <div class="card-sub green">ok</div>
         </div>
         <div class="card">
             <div class="card-label">Current TPS</div>
-            <div class="card-value">3256</div>
+            <div class="card-value">3902</div>
             <div class="card-sub">transactions/sec</div>
         </div>
         <div class="card">
@@ -100,8 +100,8 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
         <div class="card">
             <div class="card-label">Epoch</div>
             <div class="card-value">#1016</div>
-            <div class="card-sub">47.55% complete</div>
-            <div class="progress-bar"><div class="progress-fill" style="width:47.55%"></div></div>
+            <div class="card-sub">52.48% complete</div>
+            <div class="progress-bar"><div class="progress-fill" style="width:52.48%"></div></div>
         </div>
     </div>
 
@@ -135,12 +135,12 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
     <div class="grid grid-2">
         <div class="card">
             <div class="card-label">Total Value Locked</div>
-            <div class="card-value purple">$4.85B</div>
+            <div class="card-value purple">$4.83B</div>
         </div>
         <div class="card">
             <div class="card-label">DEX Volume (24h)</div>
-            <div class="card-value">$1.73B</div>
-            <div class="card-sub green">+4.5% change</div>
+            <div class="card-value">$1.98B</div>
+            <div class="card-sub green">+14.7% change</div>
         </div>
     </div>
 
@@ -158,7 +158,7 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
 </div>
 <script>
 // Render TPS bar chart
-var tpsData = [3256.0, 3424.8, 3463.7, 3123.3, 3506.0];
+var tpsData = [3901.9, 3443.8, 4191.9, 3428.8, 3995.0];
 var maxTps = Math.max.apply(Math, tpsData.concat([1]));
 var chart = document.getElementById('tps-chart');
 tpsData.forEach(function(val, i) {
