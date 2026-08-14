@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-14T14:48:31.186222+00:00",
+    "generated_at": "2026-08-14T15:49:18.636985+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 439246045,
-    "current_tps": 4322.3,
+    "current_slot": 439254829,
+    "current_tps": 3857.5,
     "tps_samples": [
-      4322.3,
-      4332.4,
-      4145.2,
-      4461.0,
-      4503.1
+      3857.5,
+      3700.2,
+      3640.2,
+      4879.6,
+      4631.6
     ],
     "avg_slot_time_seconds": 0.419,
     "slot_time_samples": [
-      0.4167,
       0.4138,
       0.4225,
-      0.4196,
-      0.4225
+      0.4138,
+      0.4255,
+      0.4196
     ]
   },
   "epoch": {
     "current_epoch": 1016,
-    "slot_index": 334046,
+    "slot_index": 342830,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 77.33
+    "epoch_progress_pct": 79.36
   },
   "validators": {
     "active": 688,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 75.28,
-    "sol_price_change_24h_pct": -1.50657,
-    "sol_price_change_7d_pct": 1.69403,
-    "market_cap_usd": 43855042027,
+    "sol_price_usd": 75.66,
+    "sol_price_change_24h_pct": -0.35473,
+    "sol_price_change_7d_pct": 2.65715,
+    "market_cap_usd": 44075328375,
     "market_cap_rank": 7,
-    "volume_24h_usd": 1102876552,
+    "volume_24h_usd": 1120131093,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.33412,
-    "fdv_usd": 47582682591,
-    "circulating_supply_sol": 582613371.5712674,
-    "total_supply_sol": 632134989.5990417
+    "ath_change_pct": -74.20393,
+    "fdv_usd": 47821692412,
+    "circulating_supply_sol": 582613330.3960888,
+    "total_supply_sol": 632134949.6844757
   },
   "defi_metrics": {
-    "tvl_usd": 4823717702.563841,
+    "tvl_usd": 4810365954.785343,
     "dex_volume_24h_usd": 1942768290.75,
     "dex_volume_change_pct": 12.58
   },
