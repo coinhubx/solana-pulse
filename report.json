@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-15T17:48:39.280819+00:00",
+    "generated_at": "2026-08-15T18:25:41.966958+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 439479889,
-    "current_tps": 3484.2,
+    "current_slot": 439485234,
+    "current_tps": 3612.8,
     "tps_samples": [
-      3484.2,
-      3586.6,
-      4110.8,
-      4243.3,
-      3645.2
+      3612.8,
+      3879.7,
+      4095.6,
+      3471.4,
+      3264.1
     ],
-    "avg_slot_time_seconds": 0.4174,
+    "avg_slot_time_seconds": 0.4168,
     "slot_time_samples": [
-      0.4167,
-      0.411,
-      0.4138,
-      0.4167,
-      0.4286
+      0.4082,
+      0.4225,
+      0.4196,
+      0.4082,
+      0.4255
     ]
   },
   "epoch": {
     "current_epoch": 1017,
-    "slot_index": 135891,
+    "slot_index": 141235,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 31.46
+    "epoch_progress_pct": 32.69
   },
   "validators": {
     "active": 686,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 75.56,
-    "sol_price_change_24h_pct": 0.21724,
-    "sol_price_change_7d_pct": -0.98634,
-    "market_cap_usd": 44031408102,
+    "sol_price_usd": 75.48,
+    "sol_price_change_24h_pct": 0.50177,
+    "sol_price_change_7d_pct": -1.05266,
+    "market_cap_usd": 43980552051,
     "market_cap_rank": 7,
-    "volume_24h_usd": 821668523,
+    "volume_24h_usd": 784481719,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.23994,
-    "fdv_usd": 47774236932,
-    "circulating_supply_sol": 582728027.8272886,
+    "ath_change_pct": -74.26687,
+    "fdv_usd": 47719059630,
+    "circulating_supply_sol": 582728009.2749935,
     "total_supply_sol": 632262010.4393096
   },
   "defi_metrics": {
-    "tvl_usd": 4817167804.76799,
+    "tvl_usd": 4818226467.504227,
     "dex_volume_24h_usd": 1612403611.56,
     "dex_volume_change_pct": -17
   },
