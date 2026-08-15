@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-15T10:47:44.838389+00:00",
+    "generated_at": "2026-08-15T11:17:50.089185+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 439419129,
-    "current_tps": 2959.1,
+    "current_slot": 439423476,
+    "current_tps": 2894.2,
     "tps_samples": [
-      2959.1,
-      3074.3,
-      2892.7,
-      2905.0,
-      2993.3
+      2894.2,
+      3029.4,
+      2899.9,
+      3020.2,
+      3209.2
     ],
-    "avg_slot_time_seconds": 0.4162,
+    "avg_slot_time_seconds": 0.415,
     "slot_time_samples": [
-      0.4167,
-      0.4138,
       0.411,
-      0.4255,
+      0.411,
+      0.4196,
+      0.4196,
       0.4138
     ]
   },
   "epoch": {
     "current_epoch": 1017,
-    "slot_index": 75130,
+    "slot_index": 79478,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 17.39
+    "epoch_progress_pct": 18.4
   },
   "validators": {
     "active": 687,
@@ -47,22 +47,22 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 75.22,
-    "sol_price_change_24h_pct": -0.25535,
-    "sol_price_change_7d_pct": 0.46176,
-    "market_cap_usd": 43826432630,
+    "sol_price_usd": 75.2,
+    "sol_price_change_24h_pct": -0.29667,
+    "sol_price_change_7d_pct": 0.19423,
+    "market_cap_usd": 43824770898,
     "market_cap_rank": 7,
-    "volume_24h_usd": 975098823,
+    "volume_24h_usd": 953740104,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.35418,
-    "fdv_usd": 47551836777,
-    "circulating_supply_sol": 582728258.4340394,
+    "ath_change_pct": -74.3602,
+    "fdv_usd": 47550034861,
+    "circulating_supply_sol": 582728243.5758092,
     "total_supply_sol": 632262242.6841232
   },
   "defi_metrics": {
     "tvl_usd": 4808565625.249166,
-    "dex_volume_24h_usd": 1640281987.56,
-    "dex_volume_change_pct": -15.57
+    "dex_volume_24h_usd": 1612403611.56,
+    "dex_volume_change_pct": -17
   },
   "anomaly_detection": [],
   "anomaly_count": 0
