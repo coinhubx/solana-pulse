@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-16T10:58:47.728670+00:00",
+    "generated_at": "2026-08-16T11:27:01.189064+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 439628476,
-    "current_tps": 2544.8,
+    "current_slot": 439632540,
+    "current_tps": 2649.0,
     "tps_samples": [
-      2544.8,
-      2607.9,
-      2529.7,
-      2685.0,
-      2689.2
+      2649.0,
+      2876.7,
+      3017.0,
+      2783.1,
+      2762.4
     ],
-    "avg_slot_time_seconds": 0.4167,
+    "avg_slot_time_seconds": 0.4121,
     "slot_time_samples": [
-      0.4196,
-      0.4225,
-      0.4196,
       0.4138,
-      0.4082
+      0.411,
+      0.4167,
+      0.4082,
+      0.411
     ]
   },
   "epoch": {
     "current_epoch": 1017,
-    "slot_index": 284477,
+    "slot_index": 288541,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 65.85
+    "epoch_progress_pct": 66.79
   },
   "validators": {
     "active": 688,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 75.19,
-    "sol_price_change_24h_pct": -0.0427,
-    "sol_price_change_7d_pct": -1.60073,
-    "market_cap_usd": 43818521623,
+    "sol_price_usd": 75.22,
+    "sol_price_change_24h_pct": 0.03552,
+    "sol_price_change_7d_pct": -1.43722,
+    "market_cap_usd": 43839986512,
     "market_cap_rank": 7,
-    "volume_24h_usd": 570021688,
+    "volume_24h_usd": 570195318,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.36533,
-    "fdv_usd": 47538601463,
-    "circulating_supply_sol": 582784587.9492439,
+    "ath_change_pct": -74.35405,
+    "fdv_usd": 47561889701,
+    "circulating_supply_sol": 582784585.301544,
     "total_supply_sol": 632261506.9853538
   },
   "defi_metrics": {
-    "tvl_usd": 4808165066.960401,
+    "tvl_usd": 4808153281.800183,
     "dex_volume_24h_usd": 1169008711.04,
     "dex_volume_change_pct": -27.18
   },
