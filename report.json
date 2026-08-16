@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-16T05:43:00.537640+00:00",
+    "generated_at": "2026-08-16T06:02:38.277619+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 439582920,
-    "current_tps": 2772.6,
+    "current_slot": 439585722,
+    "current_tps": 2768.8,
     "tps_samples": [
-      2772.6,
-      2741.4,
-      2848.5,
-      2778.5,
-      2693.1
+      2768.8,
+      2618.3,
+      2653.1,
+      2839.8,
+      2527.4
     ],
-    "avg_slot_time_seconds": 0.4151,
+    "avg_slot_time_seconds": 0.4244,
     "slot_time_samples": [
-      0.411,
-      0.411,
-      0.4286,
-      0.411,
-      0.4138
+      0.4255,
+      0.4225,
+      0.4138,
+      0.4348,
+      0.4255
     ]
   },
   "epoch": {
     "current_epoch": 1017,
-    "slot_index": 238921,
+    "slot_index": 241723,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 55.31
+    "epoch_progress_pct": 55.95
   },
   "validators": {
     "active": 688,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 75.33,
-    "sol_price_change_24h_pct": 0.05957,
-    "sol_price_change_7d_pct": -0.81771,
-    "market_cap_usd": 43900316351,
+    "sol_price_usd": 75.3,
+    "sol_price_change_24h_pct": 0.0165,
+    "sol_price_change_7d_pct": -0.82714,
+    "market_cap_usd": 43888570010,
     "market_cap_rank": 7,
-    "volume_24h_usd": 589622686,
+    "volume_24h_usd": 585774134,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.31737,
-    "fdv_usd": 47627339979,
-    "circulating_supply_sol": 582784726.8211172,
+    "ath_change_pct": -74.32668,
+    "fdv_usd": 47614596404,
+    "circulating_supply_sol": 582784716.1796771,
     "total_supply_sol": 632261636.6353022
   },
   "defi_metrics": {
-    "tvl_usd": 4813677775.524301,
+    "tvl_usd": 4813569511.842503,
     "dex_volume_24h_usd": 1234854042.04,
     "dex_volume_change_pct": -23.08
   },
