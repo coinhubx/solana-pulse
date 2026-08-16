@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-16T15:45:41.785094+00:00",
+    "generated_at": "2026-08-16T16:21:04.330697+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 439669857,
-    "current_tps": 4387.0,
+    "current_slot": 439674955,
+    "current_tps": 4531.7,
     "tps_samples": [
-      4387.0,
-      4101.9,
-      3615.9,
-      3471.9,
-      4207.8
+      4531.7,
+      3746.4,
+      4551.8,
+      3827.7,
+      3765.6
     ],
-    "avg_slot_time_seconds": 0.4203,
+    "avg_slot_time_seconds": 0.4191,
     "slot_time_samples": [
-      0.4167,
-      0.4286,
+      0.411,
+      0.4225,
+      0.4225,
       0.4138,
-      0.4286,
-      0.4138
+      0.4255
     ]
   },
   "epoch": {
     "current_epoch": 1017,
-    "slot_index": 325859,
+    "slot_index": 330956,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 75.43
+    "epoch_progress_pct": 76.61
   },
   "validators": {
     "active": 688,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 75.48,
-    "sol_price_change_24h_pct": 0.05687,
-    "sol_price_change_7d_pct": -1.85482,
-    "market_cap_usd": 43990369977,
+    "sol_price_usd": 75.53,
+    "sol_price_change_24h_pct": 0.19493,
+    "sol_price_change_7d_pct": -2.30397,
+    "market_cap_usd": 44011031498,
     "market_cap_rank": 7,
-    "volume_24h_usd": 527538183,
+    "volume_24h_usd": 542031144,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.26516,
-    "fdv_usd": 47725040993,
-    "circulating_supply_sol": 582784452.2609556,
+    "ath_change_pct": -74.25014,
+    "fdv_usd": 47747458275,
+    "circulating_supply_sol": 582784433.2357335,
     "total_supply_sol": 632261363.6233629
   },
   "defi_metrics": {
-    "tvl_usd": 4802356299.319816,
+    "tvl_usd": 4803123606.964915,
     "dex_volume_24h_usd": 1169008711.04,
     "dex_volume_change_pct": -27.18
   },
