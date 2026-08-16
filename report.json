@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-16T04:32:59.042117+00:00",
+    "generated_at": "2026-08-16T05:05:47.447183+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 439572842,
-    "current_tps": 3050.0,
+    "current_slot": 439577559,
+    "current_tps": 2746.4,
     "tps_samples": [
-      3050.0,
-      3025.9,
-      2949.5,
-      2577.1,
-      2641.5
+      2746.4,
+      2785.7,
+      2899.2,
+      2704.9,
+      2865.9
     ],
-    "avg_slot_time_seconds": 0.4133,
+    "avg_slot_time_seconds": 0.4167,
     "slot_time_samples": [
       0.4167,
-      0.4082,
-      0.4082,
-      0.4167,
-      0.4167
+      0.4225,
+      0.4138,
+      0.4196,
+      0.411
     ]
   },
   "epoch": {
     "current_epoch": 1017,
-    "slot_index": 228843,
+    "slot_index": 233560,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 52.97
+    "epoch_progress_pct": 54.06
   },
   "validators": {
     "active": 688,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 75.52,
-    "sol_price_change_24h_pct": 0.02833,
-    "sol_price_change_7d_pct": -0.57544,
-    "market_cap_usd": 44012572119,
+    "sol_price_usd": 75.4,
+    "sol_price_change_24h_pct": -0.05369,
+    "sol_price_change_7d_pct": -0.72972,
+    "market_cap_usd": 43939788337,
     "market_cap_rank": 7,
-    "volume_24h_usd": 601255527,
+    "volume_24h_usd": 597390096,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.2536,
-    "fdv_usd": 47749126939,
-    "circulating_supply_sol": 582784753.3133091,
+    "ath_change_pct": -74.29458,
+    "fdv_usd": 47670162531,
+    "circulating_supply_sol": 582784739.7330122,
     "total_supply_sol": 632261663.5922371
   },
   "defi_metrics": {
-    "tvl_usd": 4813775013.48935,
+    "tvl_usd": 4813677775.524301,
     "dex_volume_24h_usd": 1234854042.04,
     "dex_volume_change_pct": -23.08
   },
