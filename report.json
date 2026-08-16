@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-16T22:47:20.780220+00:00",
+    "generated_at": "2026-08-16T23:17:27.625770+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 439730738,
-    "current_tps": 3381.2,
+    "current_slot": 439735084,
+    "current_tps": 3526.8,
     "tps_samples": [
-      3381.2,
-      3453.5,
-      3668.9,
-      3979.9,
-      3227.1
+      3526.8,
+      3210.9,
+      3395.9,
+      3083.5,
+      3021.2
     ],
-    "avg_slot_time_seconds": 0.4236,
+    "avg_slot_time_seconds": 0.4116,
     "slot_time_samples": [
-      0.438,
-      0.4255,
+      0.4027,
+      0.411,
       0.4082,
-      0.4082,
-      0.438
+      0.4196,
+      0.4167
     ]
   },
   "epoch": {
     "current_epoch": 1017,
-    "slot_index": 386739,
+    "slot_index": 391085,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 89.52
+    "epoch_progress_pct": 90.53
   },
   "validators": {
     "active": 688,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 74.29,
-    "sol_price_change_24h_pct": -1.66288,
-    "sol_price_change_7d_pct": -3.96511,
-    "market_cap_usd": 43291018308,
+    "sol_price_usd": 74.44,
+    "sol_price_change_24h_pct": -1.21311,
+    "sol_price_change_7d_pct": -3.01961,
+    "market_cap_usd": 43390187411,
     "market_cap_rank": 7,
-    "volume_24h_usd": 708192415,
+    "volume_24h_usd": 711388191,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.67133,
-    "fdv_usd": 46966317467,
-    "circulating_supply_sol": 582784208.827419,
+    "ath_change_pct": -74.62072,
+    "fdv_usd": 47073906987,
+    "circulating_supply_sol": 582784192.0435439,
     "total_supply_sol": 632261119.2251788
   },
   "defi_metrics": {
-    "tvl_usd": 4793133797.215996,
+    "tvl_usd": 4781642126.907018,
     "dex_volume_24h_usd": 1169008634.04,
     "dex_volume_change_pct": -27.18
   },
