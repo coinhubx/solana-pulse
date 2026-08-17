@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-17T04:39:02.244741+00:00",
+    "generated_at": "2026-08-17T05:20:49.172011+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 439781649,
-    "current_tps": 2876.0,
+    "current_slot": 439787690,
+    "current_tps": 2999.5,
     "tps_samples": [
-      2876.0,
-      2994.6,
-      2947.0,
-      3042.9,
-      2779.7
+      2999.5,
+      3233.8,
+      3172.5,
+      3186.6,
+      2805.7
     ],
-    "avg_slot_time_seconds": 0.4128,
+    "avg_slot_time_seconds": 0.415,
     "slot_time_samples": [
-      0.4082,
-      0.4196,
-      0.4082,
-      0.4196,
-      0.4082
+      0.4138,
+      0.4167,
+      0.4138,
+      0.411,
+      0.4196
     ]
   },
   "epoch": {
     "current_epoch": 1018,
-    "slot_index": 5651,
+    "slot_index": 11691,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 1.31
+    "epoch_progress_pct": 2.71
   },
   "validators": {
     "active": 689,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 75.47,
-    "sol_price_change_24h_pct": 9e-05,
-    "sol_price_change_7d_pct": -1.46949,
-    "market_cap_usd": 43991808334,
+    "sol_price_usd": 75.48,
+    "sol_price_change_24h_pct": 0.14246,
+    "sol_price_change_7d_pct": -1.3881,
+    "market_cap_usd": 44001940706,
     "market_cap_rank": 7,
-    "volume_24h_usd": 867839012,
+    "volume_24h_usd": 875119210,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.27,
-    "fdv_usd": 47717132914,
-    "circulating_supply_sol": 582899725.9313359,
+    "ath_change_pct": -74.26507,
+    "fdv_usd": 47737771111,
+    "circulating_supply_sol": 582899699.194831,
     "total_supply_sol": 632388744.8866575
   },
   "defi_metrics": {
-    "tvl_usd": 4798768500.877565,
+    "tvl_usd": 4799319008.019403,
     "dex_volume_24h_usd": 1053725616.95,
     "dex_volume_change_pct": -9.86
   },
