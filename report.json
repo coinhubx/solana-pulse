@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-18T13:58:19.856258+00:00",
+    "generated_at": "2026-08-18T14:35:24.140369+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 440070306,
-    "current_tps": 4300.1,
+    "current_slot": 440075851,
+    "current_tps": 5562.9,
     "tps_samples": [
-      4300.1,
-      4302.2,
-      4481.1,
-      4917.4,
-      4920.3
+      5562.9,
+      5205.6,
+      5442.4,
+      5586.8,
+      6063.7
     ],
-    "avg_slot_time_seconds": 0.4144,
+    "avg_slot_time_seconds": 0.4152,
     "slot_time_samples": [
-      0.4167,
-      0.4138,
-      0.4196,
       0.4082,
-      0.4138
+      0.4225,
+      0.4138,
+      0.4286,
+      0.4027
     ]
   },
   "epoch": {
     "current_epoch": 1018,
-    "slot_index": 294307,
+    "slot_index": 299853,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 68.13
+    "epoch_progress_pct": 69.41
   },
   "validators": {
     "active": 684,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 76.01,
-    "sol_price_change_24h_pct": 0.6572,
-    "sol_price_change_7d_pct": 0.20131,
-    "market_cap_usd": 44298956177,
+    "sol_price_usd": 77.0,
+    "sol_price_change_24h_pct": 1.83468,
+    "sol_price_change_7d_pct": 1.33327,
+    "market_cap_usd": 44884274686,
     "market_cap_rank": 7,
-    "volume_24h_usd": 1268759580,
+    "volume_24h_usd": 1351114394,
     "ath_usd": 293.31,
-    "ath_change_pct": -74.08545,
-    "fdv_usd": 48060275833,
-    "circulating_supply_sol": 582895407.4171766,
+    "ath_change_pct": -73.74728,
+    "fdv_usd": 48695294306,
+    "circulating_supply_sol": 582895384.053454,
     "total_supply_sol": 632387652.463537
   },
   "defi_metrics": {
-    "tvl_usd": 4862971825.3370495,
+    "tvl_usd": 4863983425.900521,
     "dex_volume_24h_usd": 1474970358.3600001,
     "dex_volume_change_pct": 39.75
   },
