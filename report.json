@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-19T23:35:40.614337+00:00",
+    "generated_at": "2026-08-19T23:58:10.480185+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 440361303,
-    "current_tps": 4125.1,
+    "current_slot": 440364562,
+    "current_tps": 3819.1,
     "tps_samples": [
-      4125.1,
-      4100.1,
-      5006.3,
-      5059.5,
-      4237.2
+      3819.1,
+      3947.2,
+      3835.9,
+      4822.6,
+      4936.9
     ],
-    "avg_slot_time_seconds": 0.4156,
+    "avg_slot_time_seconds": 0.4116,
     "slot_time_samples": [
-      0.4138,
-      0.4138,
-      0.4225,
-      0.4225,
-      0.4054
+      0.4082,
+      0.411,
+      0.411,
+      0.4167,
+      0.411
     ]
   },
   "epoch": {
     "current_epoch": 1019,
-    "slot_index": 153304,
+    "slot_index": 156563,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 35.49
+    "epoch_progress_pct": 36.24
   },
   "validators": {
     "active": 688,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 85.24,
-    "sol_price_change_24h_pct": 10.55867,
-    "sol_price_change_7d_pct": 12.96067,
-    "market_cap_usd": 49702158931,
+    "sol_price_usd": 85.3,
+    "sol_price_change_24h_pct": 10.74281,
+    "sol_price_change_7d_pct": 13.03764,
+    "market_cap_usd": 49720987461,
     "market_cap_rank": 7,
-    "volume_24h_usd": 4299437318,
+    "volume_24h_usd": 4363426184,
     "ath_usd": 293.31,
-    "ath_change_pct": -70.93922,
-    "fdv_usd": 53922752877,
-    "circulating_supply_sol": 583006534.701667,
-    "total_supply_sol": 632514098.8625773
+    "ath_change_pct": -70.91942,
+    "fdv_usd": 53943178390,
+    "circulating_supply_sol": 583006516.2021995,
+    "total_supply_sol": 632514049.8546023
   },
   "defi_metrics": {
-    "tvl_usd": 5204306064.392728,
+    "tvl_usd": 5207933698.166858,
     "dex_volume_24h_usd": 1838194723.04,
     "dex_volume_change_pct": 24.62
   },
@@ -68,8 +68,8 @@
     {
       "level": "HIGH",
       "metric": "SOL Price Move",
-      "value": "+10.6%",
-      "detail": "SOL moved +10.6% in 24h"
+      "value": "+10.7%",
+      "detail": "SOL moved +10.7% in 24h"
     }
   ],
   "anomaly_count": 1
