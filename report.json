@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-19T16:57:14.799200+00:00",
+    "generated_at": "2026-08-19T17:28:41.527099+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 440303979,
-    "current_tps": 5131.8,
+    "current_slot": 440308501,
+    "current_tps": 5259.2,
     "tps_samples": [
-      5131.8,
-      5490.2,
-      5071.6,
-      6208.9,
-      5771.5
+      5259.2,
+      5021.0,
+      5461.3,
+      5132.3,
+      5051.7
     ],
-    "avg_slot_time_seconds": 0.4161,
+    "avg_slot_time_seconds": 0.4202,
     "slot_time_samples": [
-      0.4225,
-      0.4138,
-      0.411,
+      0.4255,
+      0.4167,
       0.4196,
-      0.4138
+      0.4196,
+      0.4196
     ]
   },
   "epoch": {
     "current_epoch": 1019,
-    "slot_index": 95981,
+    "slot_index": 100504,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 22.22
+    "epoch_progress_pct": 23.26
   },
   "validators": {
     "active": 686,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 81.73,
-    "sol_price_change_24h_pct": 6.13499,
-    "sol_price_change_7d_pct": 7.98747,
-    "market_cap_usd": 47638267453,
+    "sol_price_usd": 81.07,
+    "sol_price_change_24h_pct": 5.47409,
+    "sol_price_change_7d_pct": 7.19641,
+    "market_cap_usd": 47282791244,
     "market_cap_rank": 7,
-    "volume_24h_usd": 2818206640,
+    "volume_24h_usd": 2877313398,
     "ath_usd": 293.31,
-    "ath_change_pct": -72.13578,
-    "fdv_usd": 51683571221,
-    "circulating_supply_sol": 583007132.6403579,
+    "ath_change_pct": -72.36023,
+    "fdv_usd": 51297911683,
+    "circulating_supply_sol": 583007102.1669004,
     "total_supply_sol": 632514373.0820923
   },
   "defi_metrics": {
-    "tvl_usd": 5049383426.350516,
+    "tvl_usd": 5051590782.172402,
     "dex_volume_24h_usd": 1838194723.04,
     "dex_volume_change_pct": 24.62
   },
