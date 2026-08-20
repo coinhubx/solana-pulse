@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-20T22:55:15.592690+00:00",
+    "generated_at": "2026-08-20T23:23:36.164640+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 440563321,
-    "current_tps": 4691.1,
+    "current_slot": 440567416,
+    "current_tps": 4628.4,
     "tps_samples": [
-      4691.1,
-      4726.0,
-      4419.2,
-      4224.7,
-      4708.1
+      4628.4,
+      4423.4,
+      4667.1,
+      4265.8,
+      4336.9
     ],
-    "avg_slot_time_seconds": 0.4144,
+    "avg_slot_time_seconds": 0.4174,
     "slot_time_samples": [
-      0.4196,
-      0.4138,
-      0.4138,
       0.411,
-      0.4138
+      0.4167,
+      0.4082,
+      0.4255,
+      0.4255
     ]
   },
   "epoch": {
     "current_epoch": 1019,
-    "slot_index": 355322,
+    "slot_index": 359417,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 82.25
+    "epoch_progress_pct": 83.2
   },
   "validators": {
     "active": 690,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 87.36,
-    "sol_price_change_24h_pct": 2.60414,
-    "sol_price_change_7d_pct": 14.60982,
-    "market_cap_usd": 50926413323,
+    "sol_price_usd": 87.49,
+    "sol_price_change_24h_pct": 2.53456,
+    "sol_price_change_7d_pct": 14.88096,
+    "market_cap_usd": 51010118931,
     "market_cap_rank": 7,
-    "volume_24h_usd": 4102037048,
+    "volume_24h_usd": 4056474557,
     "ath_usd": 293.31,
-    "ath_change_pct": -70.2165,
-    "fdv_usd": 55250972421,
-    "circulating_supply_sol": 583005660.3425015,
+    "ath_change_pct": -70.1711,
+    "fdv_usd": 55341788255,
+    "circulating_supply_sol": 583005637.9009541,
     "total_supply_sol": 632513196.7032002
   },
   "defi_metrics": {
-    "tvl_usd": 5280250653.19888,
+    "tvl_usd": 5283802330.468086,
     "dex_volume_24h_usd": 3009837694.95,
     "dex_volume_change_pct": 63.74
   },
