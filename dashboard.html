@@ -53,25 +53,25 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
 <body>
 <div class="header">
     <div><span class="pulse"></span><h1 style="display:inline">SolanaPulse</h1></div>
-    <div class="meta">Auto-updating · Last refresh: 2026-08-20T05:03:52.966748+00:00<br>Next refresh in 5 min</div>
+    <div class="meta">Auto-updating · Last refresh: 2026-08-20T05:46:05.977120+00:00<br>Next refresh in 5 min</div>
 </div>
 <div class="container">
     <div class="section-title">Economic Indicators</div>
     <div class="grid grid-4">
         <div class="card">
             <div class="card-label">SOL Price</div>
-            <div class="card-value">$84.79</div>
-            <div class="card-sub #4ade80">+10.3% (24h) · +11.5% (7d)</div>
+            <div class="card-value">$84.90</div>
+            <div class="card-sub #4ade80">+10.5% (24h) · +11.7% (7d)</div>
         </div>
         <div class="card">
             <div class="card-label">Market Cap</div>
-            <div class="card-value">$49.43B</div>
+            <div class="card-value">$49.50B</div>
             <div class="card-sub purple">Rank #7</div>
         </div>
         <div class="card">
             <div class="card-label">24h Volume</div>
-            <div class="card-value">$4.60B</div>
-            <div class="card-sub green">FDV: $53.63B</div>
+            <div class="card-value">$4.77B</div>
+            <div class="card-sub green">FDV: $53.70B</div>
         </div>
         <div class="card">
             <div class="card-label">ATH</div>
@@ -84,24 +84,24 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
     <div class="grid grid-4">
         <div class="card">
             <div class="card-label">Current Slot</div>
-            <div class="card-value">440,408,717</div>
+            <div class="card-value">440,414,807</div>
             <div class="card-sub green">ok</div>
         </div>
         <div class="card">
             <div class="card-label">Current TPS</div>
-            <div class="card-value">3224</div>
+            <div class="card-value">2867</div>
             <div class="card-sub">transactions/sec</div>
         </div>
         <div class="card">
             <div class="card-label">Avg Slot Time</div>
-            <div class="card-value">0.4139s</div>
+            <div class="card-value">0.4127s</div>
             <div class="card-sub">target: ~0.4s</div>
         </div>
         <div class="card">
             <div class="card-label">Epoch</div>
             <div class="card-value">#1019</div>
-            <div class="card-sub">46.46% complete</div>
-            <div class="progress-bar"><div class="progress-fill" style="width:46.46%"></div></div>
+            <div class="card-sub">47.87% complete</div>
+            <div class="progress-bar"><div class="progress-fill" style="width:47.87%"></div></div>
         </div>
     </div>
 
@@ -151,8 +151,8 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
             <div class="anomaly-card" style="border-color:#f87171">
                 <span class="anomaly-level" style="background:#f87171">HIGH</span>
                 <span class="anomaly-metric">SOL Price Move</span>
-                <span class="anomaly-value">+10.3%</span>
-                <span class="anomaly-detail">SOL moved +10.3% in 24h</span>
+                <span class="anomaly-value">+10.5%</span>
+                <span class="anomaly-detail">SOL moved +10.5% in 24h</span>
             </div>
             <div class="anomaly-card" style="border-color:#fbbf24">
                 <span class="anomaly-level" style="background:#fbbf24">MEDIUM</span>
@@ -174,7 +174,7 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
 </div>
 <script>
 // Render TPS bar chart
-var tpsData = [3223.5, 3432.9, 3400.5, 3324.2, 3061.7];
+var tpsData = [2866.6, 2780.9, 2759.7, 3056.2, 2840.7];
 var maxTps = Math.max.apply(Math, tpsData.concat([1]));
 var chart = document.getElementById('tps-chart');
 tpsData.forEach(function(val, i) {
