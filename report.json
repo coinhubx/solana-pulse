@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-21T22:21:39.066273+00:00",
+    "generated_at": "2026-08-21T22:50:40.021032+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,35 +11,35 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 440783344,
-    "current_tps": 4363.7,
+    "current_slot": 440788098,
+    "current_tps": 4802.0,
     "tps_samples": [
-      4363.7,
-      4040.2,
-      4242.4,
-      4783.8,
-      3928.0
+      4802.0,
+      4082.3,
+      4318.6,
+      4409.4,
+      4184.3
     ],
-    "avg_slot_time_seconds": 0.3704,
+    "avg_slot_time_seconds": 0.3702,
     "slot_time_samples": [
+      0.3871,
       0.3636,
       0.375,
-      0.3681,
-      0.3681,
-      0.3774
+      0.3571,
+      0.3681
     ]
   },
   "epoch": {
     "current_epoch": 1020,
-    "slot_index": 143345,
+    "slot_index": 148100,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 33.18
+    "epoch_progress_pct": 34.28
   },
   "validators": {
-    "active": 675,
-    "delinquent": 19,
+    "active": 678,
+    "delinquent": 16,
     "total": 694,
-    "delinquency_rate_pct": 2.74
+    "delinquency_rate_pct": 2.31
   },
   "supply": {
     "total_supply_sol": 0.0,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 93.77,
-    "sol_price_change_24h_pct": 7.3912,
-    "sol_price_change_7d_pct": 24.77709,
-    "market_cap_usd": 54671968581,
+    "sol_price_usd": 94.05,
+    "sol_price_change_24h_pct": 7.7368,
+    "sol_price_change_7d_pct": 25.14524,
+    "market_cap_usd": 54849741670,
     "market_cap_rank": 7,
-    "volume_24h_usd": 6442292687,
+    "volume_24h_usd": 6545208367,
     "ath_usd": 293.31,
-    "ath_change_pct": -68.02954,
-    "fdv_usd": 59308986214,
-    "circulating_supply_sol": 583177574.0628031,
-    "total_supply_sol": 632639906.3788767
+    "ath_change_pct": -67.93521,
+    "fdv_usd": 59501834466,
+    "circulating_supply_sol": 583177543.7750626,
+    "total_supply_sol": 632639867.5964391
   },
   "defi_metrics": {
-    "tvl_usd": 5449177799.477351,
+    "tvl_usd": 5459995769.160547,
     "dex_volume_24h_usd": 2770509439.33,
     "dex_volume_change_pct": -7.95
   },
