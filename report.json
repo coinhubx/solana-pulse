@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-22T12:34:04.212532+00:00",
+    "generated_at": "2026-08-22T13:18:25.119465+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 440922826,
-    "current_tps": 3099.0,
+    "current_slot": 440930113,
+    "current_tps": 3463.3,
     "tps_samples": [
-      3099.0,
-      3289.1,
-      3158.4,
-      3207.9,
-      3126.0
+      3463.3,
+      3323.7,
+      3309.3,
+      3081.9,
+      3177.1
     ],
     "avg_slot_time_seconds": 0.3673,
     "slot_time_samples": [
-      0.3727,
-      0.3727,
-      0.3636,
+      0.3774,
       0.3614,
-      0.3659
+      0.3636,
+      0.3727,
+      0.3614
     ]
   },
   "epoch": {
     "current_epoch": 1020,
-    "slot_index": 282827,
+    "slot_index": 290114,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 65.47
+    "epoch_progress_pct": 67.16
   },
   "validators": {
     "active": 686,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 94.14,
-    "sol_price_change_24h_pct": 4.25925,
-    "sol_price_change_7d_pct": 25.2244,
-    "market_cap_usd": 54888678169,
+    "sol_price_usd": 93.95,
+    "sol_price_change_24h_pct": 3.55311,
+    "sol_price_change_7d_pct": 24.6846,
+    "market_cap_usd": 54788162523,
     "market_cap_rank": 7,
-    "volume_24h_usd": 8585514726,
+    "volume_24h_usd": 8502219935,
     "ath_usd": 293.31,
-    "ath_change_pct": -67.90578,
-    "fdv_usd": 59544079203,
-    "circulating_supply_sol": 583177050.4842762,
-    "total_supply_sol": 632639386.4629703
+    "ath_change_pct": -67.96793,
+    "fdv_usd": 59435039176,
+    "circulating_supply_sol": 583177016.8757488,
+    "total_supply_sol": 632639361.7014152
   },
   "defi_metrics": {
-    "tvl_usd": 5539353430.106829,
+    "tvl_usd": 5508017518.180563,
     "dex_volume_24h_usd": 3600948276.22,
     "dex_volume_change_pct": 30.15
   },
