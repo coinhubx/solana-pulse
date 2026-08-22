@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-22T14:18:38.661702+00:00",
+    "generated_at": "2026-08-22T14:47:36.262307+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 440939958,
-    "current_tps": 3455.9,
+    "current_slot": 440944689,
+    "current_tps": 3949.6,
     "tps_samples": [
-      3455.9,
-      3330.2,
-      3462.1,
-      3340.8,
-      3825.6
+      3949.6,
+      4083.1,
+      3889.8,
+      4115.8,
+      3911.9
     ],
-    "avg_slot_time_seconds": 0.3619,
+    "avg_slot_time_seconds": 0.365,
     "slot_time_samples": [
-      0.3614,
-      0.3614,
-      0.3593,
+      0.3659,
       0.3681,
-      0.3593
+      0.3659,
+      0.3593,
+      0.3659
     ]
   },
   "epoch": {
     "current_epoch": 1020,
-    "slot_index": 299960,
+    "slot_index": 304690,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 69.44
+    "epoch_progress_pct": 70.53
   },
   "validators": {
     "active": 686,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 93.81,
-    "sol_price_change_24h_pct": 3.18145,
-    "sol_price_change_7d_pct": 24.25608,
-    "market_cap_usd": 54706675433,
+    "sol_price_usd": 93.36,
+    "sol_price_change_24h_pct": 2.00925,
+    "sol_price_change_7d_pct": 23.66197,
+    "market_cap_usd": 54480046827,
     "market_cap_rank": 7,
-    "volume_24h_usd": 8362696373,
+    "volume_24h_usd": 8323437234,
     "ath_usd": 293.31,
-    "ath_change_pct": -68.01763,
-    "fdv_usd": 59346641520,
-    "circulating_supply_sol": 583176985.0603439,
-    "total_supply_sol": 632639321.1139977
+    "ath_change_pct": -68.17055,
+    "fdv_usd": 59100788699,
+    "circulating_supply_sol": 583176973.1617028,
+    "total_supply_sol": 632639293.1309842
   },
   "defi_metrics": {
-    "tvl_usd": 5529047127.776179,
+    "tvl_usd": 5529324703.340835,
     "dex_volume_24h_usd": 3600948276.22,
     "dex_volume_change_pct": 30.15
   },
