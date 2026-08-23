@@ -1,18 +1,18 @@
 # Solana Ecosystem Report
 
-**Generated:** 2026-08-23T12:35:08.669869+00:00  
+**Generated:** 2026-08-23T13:19:52.437758+00:00  
 **Generator:** SolanaPulse v1.0  
 **Data Sources:** Solana RPC, DeFiLlama, CoinGecko
 
 ## Network Health
 - **Status:** ok
-- **Current Slot:** 441,158,715
-- **Current TPS:** 3318
-- **Avg Slot Time:** 0.3655s
+- **Current Slot:** 441,166,059
+- **Current TPS:** 5044
+- **Avg Slot Time:** 0.3646s
 
 ## Epoch Progress
 - **Current Epoch:** 1021
-- **Progress:** 20.07% (86,716/432,000 slots)
+- **Progress:** 21.77% (94,060/432,000 slots)
 
 ## Validator Status
 - **Active Validators:** 683
@@ -26,17 +26,17 @@
 - **Non-Circulating:** 0.00 SOL
 
 ## Economic Indicators
-- **SOL Price:** $94.59 (+0.7% 24h, +25.8% 7d)
-- **Market Cap:** $55.17B (Rank #7)
-- **24h Volume:** $4.41B
-- **ATH:** $293.31 (-67.8% from ATH)
-- **FDV:** $59.85B
-- **Circulating Supply:** 583,277,037 SOL
+- **SOL Price:** $95.00 (+1.2% 24h, +26.3% 7d)
+- **Market Cap:** $55.40B (Rank #7)
+- **24h Volume:** $4.42B
+- **ATH:** $293.31 (-67.6% from ATH)
+- **FDV:** $60.10B
+- **Circulating Supply:** 583,277,002 SOL
 
 ## DeFi Metrics
-- **TVL:** $5.52B
+- **TVL:** $5.55B
 - **DEX Volume (24h):** $3.73B
 - **DEX Volume Change:** +3.6%
 
 ---
-*This report auto-updates. Last refresh: 2026-08-23T12:35:08.669869+00:00*
+*This report auto-updates. Last refresh: 2026-08-23T13:19:52.437758+00:00*
