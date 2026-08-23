@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-23T09:32:49.513370+00:00",
+    "generated_at": "2026-08-23T09:59:25.098922+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 441128769,
-    "current_tps": 3609.0,
+    "current_slot": 441133156,
+    "current_tps": 3165.3,
     "tps_samples": [
-      3609.0,
-      3482.0,
-      3642.8,
-      3748.2,
-      3781.7
+      3165.3,
+      2931.8,
+      2967.1,
+      2988.2,
+      3182.3
     ],
-    "avg_slot_time_seconds": 0.3673,
+    "avg_slot_time_seconds": 0.3646,
     "slot_time_samples": [
+      0.3593,
       0.3704,
       0.3614,
-      0.375,
-      0.3659,
+      0.3681,
       0.3636
     ]
   },
   "epoch": {
     "current_epoch": 1021,
-    "slot_index": 56771,
+    "slot_index": 61157,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 13.14
+    "epoch_progress_pct": 14.16
   },
   "validators": {
     "active": 685,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 93.09,
-    "sol_price_change_24h_pct": -1.21415,
-    "sol_price_change_7d_pct": 23.4473,
-    "market_cap_usd": 54351961825,
+    "sol_price_usd": 93.4,
+    "sol_price_change_24h_pct": -0.41891,
+    "sol_price_change_7d_pct": 23.85438,
+    "market_cap_usd": 54488320005,
     "market_cap_rank": 7,
-    "volume_24h_usd": 4734895466,
+    "volume_24h_usd": 4711337369,
     "ath_usd": 293.31,
-    "ath_change_pct": -68.26166,
-    "fdv_usd": 58962055232,
-    "circulating_supply_sol": 583277130.2595935,
-    "total_supply_sol": 632750244.5323898
+    "ath_change_pct": -68.157,
+    "fdv_usd": 59109978228,
+    "circulating_supply_sol": 583277114.531279,
+    "total_supply_sol": 632750214.1067623
   },
   "defi_metrics": {
-    "tvl_usd": 5470192291.119594,
+    "tvl_usd": 5486779525.460299,
     "dex_volume_24h_usd": 3648052188.89,
     "dex_volume_change_pct": 1.31
   },
