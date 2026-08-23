@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-23T19:55:52.089476+00:00",
+    "generated_at": "2026-08-23T20:21:30.609866+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 441231071,
-    "current_tps": 4211.7,
+    "current_slot": 441235270,
+    "current_tps": 4596.8,
     "tps_samples": [
-      4211.7,
-      4213.1,
-      3974.7,
-      4001.9,
-      4571.1
+      4596.8,
+      4311.8,
+      4499.6,
+      4502.5,
+      4616.2
     ],
-    "avg_slot_time_seconds": 0.3628,
+    "avg_slot_time_seconds": 0.3677,
     "slot_time_samples": [
-      0.3614,
-      0.3593,
-      0.3636,
       0.3659,
-      0.3636
+      0.3659,
+      0.3704,
+      0.3704,
+      0.3659
     ]
   },
   "epoch": {
     "current_epoch": 1021,
-    "slot_index": 159071,
+    "slot_index": 163271,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 36.82
+    "epoch_progress_pct": 37.79
   },
   "validators": {
     "active": 685,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 95.24,
-    "sol_price_change_24h_pct": 0.60862,
-    "sol_price_change_7d_pct": 26.70636,
-    "market_cap_usd": 55531877262,
+    "sol_price_usd": 95.15,
+    "sol_price_change_24h_pct": 0.697,
+    "sol_price_change_7d_pct": 26.61329,
+    "market_cap_usd": 55498162229,
     "market_cap_rank": 7,
-    "volume_24h_usd": 4415238401,
+    "volume_24h_usd": 4401614071,
     "ath_usd": 293.31,
-    "ath_change_pct": -67.53044,
-    "fdv_usd": 60242051026,
-    "circulating_supply_sol": 583276762.2260736,
+    "ath_change_pct": -67.56047,
+    "fdv_usd": 60205478632,
+    "circulating_supply_sol": 583276739.7149887,
     "total_supply_sol": 632749866.5429771
   },
   "defi_metrics": {
-    "tvl_usd": 5582601945.729629,
+    "tvl_usd": 5581784011.508845,
     "dex_volume_24h_usd": 3732294477.7,
     "dex_volume_change_pct": 3.65
   },
