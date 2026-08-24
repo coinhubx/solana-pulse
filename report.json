@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-24T22:01:19.222390+00:00",
+    "generated_at": "2026-08-24T22:43:56.389797+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 441488066,
-    "current_tps": 4595.7,
+    "current_slot": 441495038,
+    "current_tps": 3679.1,
     "tps_samples": [
-      4595.7,
-      3807.1,
-      3863.7,
-      4075.3,
-      4228.2
+      3679.1,
+      3803.8,
+      3649.2,
+      3733.5,
+      3727.3
     ],
-    "avg_slot_time_seconds": 0.3627,
+    "avg_slot_time_seconds": 0.3659,
     "slot_time_samples": [
       0.3636,
-      0.3614,
-      0.3636,
-      0.3636,
-      0.3614
+      0.3593,
+      0.3659,
+      0.3704,
+      0.3704
     ]
   },
   "epoch": {
     "current_epoch": 1021,
-    "slot_index": 416067,
+    "slot_index": 423039,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 96.31
+    "epoch_progress_pct": 97.93
   },
   "validators": {
     "active": 686,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 97.47,
-    "sol_price_change_24h_pct": 1.95817,
-    "sol_price_change_7d_pct": 28.6679,
-    "market_cap_usd": 56819432696,
+    "sol_price_usd": 98.21,
+    "sol_price_change_24h_pct": 2.7347,
+    "sol_price_change_7d_pct": 29.65445,
+    "market_cap_usd": 57286120624,
     "market_cap_rank": 7,
-    "volume_24h_usd": 5405943037,
+    "volume_24h_usd": 5513877055,
     "ath_usd": 293.31,
-    "ath_change_pct": -66.77011,
-    "fdv_usd": 61638824195,
-    "circulating_supply_sol": 583275788.836649,
+    "ath_change_pct": -66.51532,
+    "fdv_usd": 62145095628,
+    "circulating_supply_sol": 583275766.427519,
     "total_supply_sol": 632748892.3066331
   },
   "defi_metrics": {
-    "tvl_usd": 5594865813.885447,
+    "tvl_usd": 5607206770.355836,
     "dex_volume_24h_usd": 2938613605.25,
     "dex_volume_change_pct": -21.27
   },
