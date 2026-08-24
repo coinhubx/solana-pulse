@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-23T23:44:56.936512+00:00",
+    "generated_at": "2026-08-24T00:00:32.924098+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 441268644,
-    "current_tps": 4195.6,
+    "current_slot": 441271192,
+    "current_tps": 3740.2,
     "tps_samples": [
-      4195.6,
-      4006.2,
-      3691.8,
-      4034.2,
-      3863.6
+      3740.2,
+      4139.2,
+      3907.7,
+      4009.6,
+      4053.3
     ],
-    "avg_slot_time_seconds": 0.3646,
+    "avg_slot_time_seconds": 0.365,
     "slot_time_samples": [
-      0.3614,
-      0.3614,
-      0.3727,
-      0.3614,
-      0.3659
+      0.3704,
+      0.3659,
+      0.3681,
+      0.3593,
+      0.3614
     ]
   },
   "epoch": {
     "current_epoch": 1021,
-    "slot_index": 196646,
+    "slot_index": 199193,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 45.52
+    "epoch_progress_pct": 46.11
   },
   "validators": {
     "active": 684,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 95.09,
-    "sol_price_change_24h_pct": 1.54458,
-    "sol_price_change_7d_pct": 27.60253,
-    "market_cap_usd": 55502079449,
+    "sol_price_usd": 95.5,
+    "sol_price_change_24h_pct": 1.76429,
+    "sol_price_change_7d_pct": 28.14966,
+    "market_cap_usd": 55667699269,
     "market_cap_rank": 7,
-    "volume_24h_usd": 4281474821,
+    "volume_24h_usd": 4461985150,
     "ath_usd": 293.31,
-    "ath_change_pct": -67.5798,
-    "fdv_usd": 60209727985,
+    "ath_change_pct": -67.44079,
+    "fdv_usd": 60389395566,
     "circulating_supply_sol": 583276610.3383662,
-    "total_supply_sol": 632749739.2544647
+    "total_supply_sol": 632749707.2807397
   },
   "defi_metrics": {
-    "tvl_usd": 5586000495.024894,
+    "tvl_usd": 5590651719.607967,
     "dex_volume_24h_usd": 3732294477.7,
     "dex_volume_change_pct": 3.65
   },
