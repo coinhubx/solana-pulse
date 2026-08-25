@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-08-25T18:50:28.168281+00:00",
+    "generated_at": "2026-08-25T19:29:24.570288+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 441692949,
-    "current_tps": 4254.3,
+    "current_slot": 441699354,
+    "current_tps": 4198.7,
     "tps_samples": [
-      4254.3,
-      4426.6,
-      4107.2,
-      4119.9,
-      4242.4
+      4198.7,
+      4470.5,
+      4544.4,
+      4433.2,
+      4120.6
     ],
-    "avg_slot_time_seconds": 0.3641,
+    "avg_slot_time_seconds": 0.3627,
     "slot_time_samples": [
       0.3614,
-      0.3593,
-      0.3636,
-      0.3681,
-      0.3681
+      0.3659,
+      0.3614,
+      0.3614,
+      0.3636
     ]
   },
   "epoch": {
     "current_epoch": 1022,
-    "slot_index": 188951,
+    "slot_index": 195355,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 43.74
+    "epoch_progress_pct": 45.22
   },
   "validators": {
     "active": 686,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 98.71,
-    "sol_price_change_24h_pct": 2.59622,
-    "sol_price_change_7d_pct": 28.35893,
-    "market_cap_usd": 57583808848,
+    "sol_price_usd": 98.24,
+    "sol_price_change_24h_pct": 2.47277,
+    "sol_price_change_7d_pct": 27.26625,
+    "market_cap_usd": 57327664033,
     "market_cap_rank": 7,
-    "volume_24h_usd": 6497503188,
+    "volume_24h_usd": 6386771432,
     "ath_usd": 293.31,
-    "ath_change_pct": -66.34507,
-    "fdv_usd": 62468259347,
-    "circulating_supply_sol": 583375799.9118621,
+    "ath_change_pct": -66.5081,
+    "fdv_usd": 62190390045,
+    "circulating_supply_sol": 583375775.818307,
     "total_supply_sol": 632859657.116306
   },
   "defi_metrics": {
-    "tvl_usd": 5634312450.770804,
+    "tvl_usd": 5636168475.134215,
     "dex_volume_24h_usd": 2996141158.64,
     "dex_volume_change_pct": 1.96
   },
