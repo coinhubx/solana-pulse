@@ -1,6 +1,6 @@
 {
   "report_metadata": {
-    "generated_at": "2026-09-02T13:39:38.284953+00:00",
+    "generated_at": "2026-09-02T17:23:06.830860+00:00",
     "generator": "SolanaPulse v1.0",
     "data_sources": [
       "Solana RPC",
@@ -11,29 +11,29 @@
   },
   "network_health": "ok",
   "network_performance": {
-    "current_slot": 443710324,
-    "current_tps": 3923.3,
+    "current_slot": 443752784,
+    "current_tps": 3931.6,
     "tps_samples": [
-      3923.3,
-      3811.2,
-      3749.1,
-      3789.9,
-      3737.5
+      3931.6,
+      3947.2,
+      4137.5,
+      3884.2,
+      3971.2
     ],
-    "avg_slot_time_seconds": 0.3165,
+    "avg_slot_time_seconds": 0.3178,
     "slot_time_samples": [
-      0.3175,
       0.3158,
       0.3191,
-      0.3125,
+      0.3209,
+      0.3158,
       0.3175
     ]
   },
   "epoch": {
     "current_epoch": 1027,
-    "slot_index": 46325,
+    "slot_index": 88786,
     "slots_in_epoch": 432000,
-    "epoch_progress_pct": 10.72
+    "epoch_progress_pct": 20.55
   },
   "validators": {
     "active": 676,
@@ -47,20 +47,20 @@
     "non_circulating_sol": 0.0
   },
   "economic_indicators": {
-    "sol_price_usd": 98.13,
-    "sol_price_change_24h_pct": -3.57649,
-    "sol_price_change_7d_pct": 1.11186,
-    "market_cap_usd": 57438208046,
+    "sol_price_usd": 98.28,
+    "sol_price_change_24h_pct": -2.78958,
+    "sol_price_change_7d_pct": 2.41439,
+    "market_cap_usd": 57520666542,
     "market_cap_rank": 7,
-    "volume_24h_usd": 3298710199,
+    "volume_24h_usd": 3310373939,
     "ath_usd": 293.31,
-    "ath_change_pct": -66.54376,
-    "fdv_usd": 62155543079,
-    "circulating_supply_sol": 585292366.3940911,
-    "total_supply_sol": 633361716.8427336
+    "ath_change_pct": -66.4927,
+    "fdv_usd": 62246528177,
+    "circulating_supply_sol": 585275708.9407506,
+    "total_supply_sol": 633361583.687418
   },
   "defi_metrics": {
-    "tvl_usd": 5618933649.80363,
+    "tvl_usd": 5670108331.415258,
     "dex_volume_24h_usd": 2171560050.49,
     "dex_volume_change_pct": -13.19
   },
