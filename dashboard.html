@@ -53,30 +53,30 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
 <body>
 <div class="header">
     <div><span class="pulse"></span><h1 style="display:inline">SolanaPulse</h1></div>
-    <div class="meta">Auto-updating · Last refresh: 2026-09-14T05:19:30.821296+00:00<br>Next refresh in 5 min</div>
+    <div class="meta">Auto-updating · Last refresh: 2026-09-14T10:52:16.332040+00:00<br>Next refresh in 5 min</div>
 </div>
 <div class="container">
     <div class="section-title">Economic Indicators</div>
     <div class="grid grid-4">
         <div class="card">
             <div class="card-label">SOL Price</div>
-            <div class="card-value">$101.13</div>
-            <div class="card-sub #f87171">-0.7% (24h) · -3.7% (7d)</div>
+            <div class="card-value">$101.94</div>
+            <div class="card-sub #4ade80">+2.4% (24h) · -2.6% (7d)</div>
         </div>
         <div class="card">
             <div class="card-label">Market Cap</div>
-            <div class="card-value">$59.37B</div>
+            <div class="card-value">$59.80B</div>
             <div class="card-sub purple">Rank #7</div>
         </div>
         <div class="card">
             <div class="card-label">24h Volume</div>
-            <div class="card-value">$2.29B</div>
-            <div class="card-sub green">FDV: $64.13B</div>
+            <div class="card-value">$2.39B</div>
+            <div class="card-sub green">FDV: $64.61B</div>
         </div>
         <div class="card">
             <div class="card-label">ATH</div>
             <div class="card-value">$293.31</div>
-            <div class="card-sub red">-65.5% from ATH</div>
+            <div class="card-sub red">-65.2% from ATH</div>
         </div>
     </div>
 
@@ -84,24 +84,24 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
     <div class="grid grid-4">
         <div class="card">
             <div class="card-label">Current Slot</div>
-            <div class="card-value">446,894,954</div>
+            <div class="card-value">446,958,268</div>
             <div class="card-sub green">ok</div>
         </div>
         <div class="card">
             <div class="card-label">Current TPS</div>
-            <div class="card-value">3499</div>
+            <div class="card-value">3590</div>
             <div class="card-sub">transactions/sec</div>
         </div>
         <div class="card">
             <div class="card-label">Avg Slot Time</div>
-            <div class="card-value">0.3148s</div>
+            <div class="card-value">0.3168s</div>
             <div class="card-sub">target: ~0.4s</div>
         </div>
         <div class="card">
             <div class="card-label">Epoch</div>
             <div class="card-value">#1034</div>
-            <div class="card-sub">47.91% complete</div>
-            <div class="progress-bar"><div class="progress-fill" style="width:47.91%"></div></div>
+            <div class="card-sub">62.56% complete</div>
+            <div class="progress-bar"><div class="progress-fill" style="width:62.56%"></div></div>
         </div>
     </div>
 
@@ -114,12 +114,12 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
     <div class="grid grid-4">
         <div class="card">
             <div class="card-label">Active Validators</div>
-            <div class="card-value green">677</div>
+            <div class="card-value green">678</div>
         </div>
         <div class="card">
             <div class="card-label">Delinquent</div>
-            <div class="card-value" style="color:#4ade80">13</div>
-            <div class="card-sub" style="color:#4ade80">1.88% rate</div>
+            <div class="card-value" style="color:#4ade80">12</div>
+            <div class="card-sub" style="color:#4ade80">1.74% rate</div>
         </div>
         <div class="card">
             <div class="card-label">Total Supply</div>
@@ -135,7 +135,7 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
     <div class="grid grid-2">
         <div class="card">
             <div class="card-label">Total Value Locked</div>
-            <div class="card-value purple">$5.86B</div>
+            <div class="card-value purple">$5.89B</div>
         </div>
         <div class="card">
             <div class="card-label">DEX Volume (24h)</div>
@@ -158,7 +158,7 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
 </div>
 <script>
 // Render TPS bar chart
-var tpsData = [3499.4, 3502.0, 3481.1, 3297.4, 3281.1];
+var tpsData = [3589.5, 3518.2, 3320.7, 3447.3, 3270.6];
 var maxTps = Math.max.apply(Math, tpsData.concat([1]));
 var chart = document.getElementById('tps-chart');
 tpsData.forEach(function(val, i) {
