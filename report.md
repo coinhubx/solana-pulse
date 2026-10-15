@@ -1,24 +1,24 @@
 # Solana Ecosystem Report
 
-**Generated:** 2026-10-14T22:28:52.043649+00:00  
+**Generated:** 2026-10-15T00:46:22.970007+00:00  
 **Generator:** SolanaPulse v1.0  
 **Data Sources:** Solana RPC, DeFiLlama, CoinGecko
 
 ## Network Health
 - **Status:** ok
-- **Current Slot:** 457,004,556
-- **Current TPS:** 5092
-- **Avg Slot Time:** 0.2155s
+- **Current Slot:** 457,042,837
+- **Current TPS:** 4651
+- **Avg Slot Time:** 0.2154s
 
 ## Epoch Progress
 - **Current Epoch:** 1057
-- **Progress:** 88.09% (380,559/432,000 slots)
+- **Progress:** 96.95% (418,839/432,000 slots)
 
 ## Validator Status
-- **Active Validators:** 673
-- **Delinquent Validators:** 5
+- **Active Validators:** 669
+- **Delinquent Validators:** 9
 - **Total Validators:** 678
-- **Delinquency Rate:** 0.74%
+- **Delinquency Rate:** 1.33%
 
 ## Supply
 - **Total Supply:** 0.00 SOL
@@ -26,17 +26,17 @@
 - **Non-Circulating:** 0.00 SOL
 
 ## Economic Indicators
-- **SOL Price:** $104.38 (-2.3% 24h, -9.7% 7d)
-- **Market Cap:** $61.49B (Rank #7)
-- **24h Volume:** $3.23B
-- **ATH:** $293.31 (-64.4% from ATH)
-- **FDV:** $66.35B
-- **Circulating Supply:** 589,212,395 SOL
+- **SOL Price:** $104.26 (-3.3% 24h, -10.3% 7d)
+- **Market Cap:** $61.43B (Rank #7)
+- **24h Volume:** $3.27B
+- **ATH:** $293.31 (-64.5% from ATH)
+- **FDV:** $66.29B
+- **Circulating Supply:** 589,212,284 SOL
 
 ## DeFi Metrics
-- **TVL:** $5.98B
-- **DEX Volume (24h):** $2.50B
-- **DEX Volume Change:** +11.8%
+- **TVL:** $5.99B
+- **DEX Volume (24h):** $2.25B
+- **DEX Volume Change:** -9.9%
 
 ---
-*This report auto-updates. Last refresh: 2026-10-14T22:28:52.043649+00:00*
+*This report auto-updates. Last refresh: 2026-10-15T00:46:22.970007+00:00*
