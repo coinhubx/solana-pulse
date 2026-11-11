@@ -53,30 +53,30 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
 <body>
 <div class="header">
     <div><span class="pulse"></span><h1 style="display:inline">SolanaPulse</h1></div>
-    <div class="meta">Auto-updating · Last refresh: 2026-11-10T23:19:15.540034+00:00<br>Next refresh in 5 min</div>
+    <div class="meta">Auto-updating · Last refresh: 2026-11-11T02:54:30.609682+00:00<br>Next refresh in 5 min</div>
 </div>
 <div class="container">
     <div class="section-title">Economic Indicators</div>
     <div class="grid grid-4">
         <div class="card">
             <div class="card-label">SOL Price</div>
-            <div class="card-value">$82.83</div>
-            <div class="card-sub #f87171">-4.4% (24h) · -11.4% (7d)</div>
+            <div class="card-value">$83.29</div>
+            <div class="card-sub #f87171">-3.3% (24h) · -9.3% (7d)</div>
         </div>
         <div class="card">
             <div class="card-label">Market Cap</div>
-            <div class="card-value">$48.97B</div>
+            <div class="card-value">$49.26B</div>
             <div class="card-sub purple">Rank #7</div>
         </div>
         <div class="card">
             <div class="card-label">24h Volume</div>
-            <div class="card-value">$2.95B</div>
-            <div class="card-sub green">FDV: $52.79B</div>
+            <div class="card-value">$2.94B</div>
+            <div class="card-sub green">FDV: $53.09B</div>
         </div>
         <div class="card">
             <div class="card-label">ATH</div>
             <div class="card-value">$293.31</div>
-            <div class="card-sub red">-71.8% from ATH</div>
+            <div class="card-sub red">-71.6% from ATH</div>
         </div>
     </div>
 
@@ -84,24 +84,24 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
     <div class="grid grid-4">
         <div class="card">
             <div class="card-label">Current Slot</div>
-            <div class="card-value">467,902,782</div>
+            <div class="card-value">467,962,843</div>
             <div class="card-sub green">ok</div>
         </div>
         <div class="card">
             <div class="card-label">Current TPS</div>
-            <div class="card-value">1416</div>
+            <div class="card-value">1949</div>
             <div class="card-sub">transactions/sec</div>
         </div>
         <div class="card">
             <div class="card-label">Avg Slot Time</div>
-            <div class="card-value">0.2166s</div>
+            <div class="card-value">0.2179s</div>
             <div class="card-sub">target: ~0.4s</div>
         </div>
         <div class="card">
             <div class="card-label">Epoch</div>
             <div class="card-value">#1083</div>
-            <div class="card-sub">10.83% complete</div>
-            <div class="progress-bar"><div class="progress-fill" style="width:10.83%"></div></div>
+            <div class="card-sub">24.73% complete</div>
+            <div class="progress-bar"><div class="progress-fill" style="width:24.73%"></div></div>
         </div>
     </div>
 
@@ -135,30 +135,24 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
     <div class="grid grid-2">
         <div class="card">
             <div class="card-label">Total Value Locked</div>
-            <div class="card-value purple">$5.05B</div>
+            <div class="card-value purple">$5.06B</div>
         </div>
         <div class="card">
             <div class="card-label">DEX Volume (24h)</div>
-            <div class="card-value">$1.49B</div>
-            <div class="card-sub green">+42.6% change</div>
+            <div class="card-value">$1.34B</div>
+            <div class="card-sub red">-10.2% change</div>
         </div>
     </div>
 
     
         <div class="anomaly-section">
-            <h2>⚠️ Anomaly Detection (2)</h2>
+            <h2>⚠️ Anomaly Detection (1)</h2>
             <div class="anomaly-grid">
             <div class="anomaly-card" style="border-color:#fbbf24">
                 <span class="anomaly-level" style="background:#fbbf24">MEDIUM</span>
                 <span class="anomaly-metric">High Delinquency</span>
                 <span class="anomaly-value">41/699</span>
                 <span class="anomaly-detail">5.9% of validators delinquent</span>
-            </div>
-            <div class="anomaly-card" style="border-color:#fbbf24">
-                <span class="anomaly-level" style="background:#fbbf24">MEDIUM</span>
-                <span class="anomaly-metric">DEX Volume Shift</span>
-                <span class="anomaly-value">+42.6%</span>
-                <span class="anomaly-detail">DEX volume changed +42.6% in 24h</span>
             </div></div>
         </div>
 
@@ -174,7 +168,7 @@ body { background:#0a0a0f; color:#e0e0e0; font-family:'Segoe UI',system-ui,sans-
 </div>
 <script>
 // Render TPS bar chart
-var tpsData = [1416.4, 1689.0, 1742.8, 2107.3, 1814.7];
+var tpsData = [1949.4, 1986.3, 1872.5, 1605.3, 1457.6];
 var maxTps = Math.max.apply(Math, tpsData.concat([1]));
 var chart = document.getElementById('tps-chart');
 tpsData.forEach(function(val, i) {
